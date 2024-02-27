@@ -1,0 +1,50 @@
+\textbf {Table}\hfill \textbf {Title}\hfill \textbf {Page}\par 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Salient dimensional parameters of initially designed un-slotted rectangular microstrip patch antenna.\relax }}{26}{table.caption.20}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces S (1,1) parameter outcomes of initially designed USRMSPA.\relax }}{28}{table.caption.24}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Salient dimensional parameters of initially designed inverted T- shape slotted RMSPA.\relax }}{31}{table.caption.27}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces S(1,1) parameter outcomes of initial inverted "T" shape slotted RMSPA\relax }}{32}{table.caption.30}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Variable dimensional parameters range.\relax }}{34}{table.caption.31}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces The selected best antenna’s all band information.\relax }}{35}{table.caption.32}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Comparative analysis of best results from $L_1, L_2, W_1,$ and $W_2$.\relax }}{36}{table.caption.33}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces Some variable parametric antennas out of 73 with the FBW and Return Loss.\relax }}{38}{table.caption.35}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces Information list of Freq. Vs Antenna Efficiency\relax }}{41}{table.caption.42}%
+\contentsline {table}{\numberline {3.10}{\ignorespaces Comparison between initial inverted ‘T’ Shaped slotted antenna and strategically optimized antenna 1.\relax }}{47}{table.caption.53}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Dimensions of the T-shaped slot and the patch.\relax }}{52}{table.caption.57}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Combinations parameters\relax }}{52}{table.caption.58}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Comparison between $C_1, C_2, C_3, C_4, C_5$, and $C_6$.\relax }}{53}{table.caption.59}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Comparison between initial inverted ‘T’ Shaped slotted antenna and strategically optimized antenna 2.\relax }}{54}{table.caption.61}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces All bands S (1,1) information of the Antenna 2.\relax }}{55}{table.caption.62}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Gain of the Antenna 2 at each resonating frequency.\relax }}{58}{table.caption.69}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Efficiency vs resonating frequency data.\relax }}{58}{table.caption.72}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Dimensions of the T-shaped slot and the patch for Antenna 3.\relax }}{67}{table.caption.84}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Dimensional description of antennas obtained from $L_1$(strategy 3).\relax }}{67}{table.caption.85}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Results of the antenna at $L_1$ = 8 mm ( strategy 3).\relax }}{68}{table.caption.86}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Dimensional description of antennas obtained from $L_2$ ( strategy 3).\relax }}{68}{table.caption.87}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Results of the antenna at $L_2$ =3.9 mm (strategy 3).\relax }}{69}{table.caption.88}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Dimensional description of antennas obtained from $W_1$ (strategy 3).\relax }}{69}{table.caption.89}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces Results of the antenna at $W_1$ = 2.26 mm (strategy 3).\relax }}{70}{table.caption.90}%
+\contentsline {table}{\numberline {5.8}{\ignorespaces Dimensional description of antennas obtained from W2 (strategy 3).\relax }}{71}{table.caption.91}%
+\contentsline {table}{\numberline {5.9}{\ignorespaces Comparison between $L_1, L_2, W_1$, and $W_2$ (strategy 3).\relax }}{71}{table.caption.92}%
+\contentsline {table}{\numberline {5.10}{\ignorespaces Insides of Some antennas out of 73 antennas.\relax }}{74}{table.caption.94}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Results comparison of Initial and all optimized Antennas.\relax }}{89}{table.caption.114}%
+\contentsline {table}{\numberline {7.2}{\ignorespaces Slot and feed line Variable dimensions of all antennas.\relax }}{91}{table.caption.117}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces Variation results of the parameter L1 in the range 1 to 18 mm.(Strategy 1)\relax }}{98}{table.caption.125}%
+\contentsline {table}{\numberline {B.2}{\ignorespaces Variation results of the parameter L2 in the range 1.4 to 4 mm (Strategy 1).\relax }}{100}{table.caption.127}%
+\contentsline {table}{\numberline {B.3}{\ignorespaces Variation results of the parameter W1 in the range 2.26 to 16.26 mm ( Strategy 1).\relax }}{103}{table.caption.130}%
+\contentsline {table}{\numberline {B.4}{\ignorespaces Variation results of the parameter W2 in the range 3 to 9 mm ( Strategy 1).\relax }}{105}{table.caption.132}%
+\contentsline {table}{\numberline {B.5}{\ignorespaces Simulation results of the combinational parametric antennas.\relax }}{106}{table.caption.134}%
+\contentsline {table}{\numberline {B.6}{\ignorespaces Variation of L1 for fixing best parametric value (Strategy 3).\relax }}{107}{table.caption.135}%
+\contentsline {table}{\numberline {B.7}{\ignorespaces Variation results of L2 for fixing best parametric value (Strategy 3).\relax }}{109}{table.caption.137}%
+\contentsline {table}{\numberline {B.8}{\ignorespaces Variation results of W1 for fixing best parametric value (Strategy 3).\relax }}{112}{table.caption.140}%
+\contentsline {table}{\numberline {B.9}{\ignorespaces Variation results of W2 for fixing best parametric value (Strategy 3).\relax }}{113}{table.caption.142}%
+\contentsfinish 

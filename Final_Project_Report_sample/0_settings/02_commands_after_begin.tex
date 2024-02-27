@@ -1,0 +1,9 @@
+%==============================================================================
+  
+
+%% Heading row of tables
+\newcolumntype{+}{>{\global\let\currentrowstyle\relax}}
+\newcolumntype{^}{>{\currentrowstyle}}
+\newcommand{\rowstyle}[1]{\gdef\currentrowstyle{#1}%
+#1\ignorespaces}
+ 

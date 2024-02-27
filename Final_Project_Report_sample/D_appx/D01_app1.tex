@@ -1,0 +1,94 @@
+\chapter{Important Codes/Analysis(1)}
+\section{ARIMA Model Code}
+\lstset{language=Python}
+\lstset{frame=lines}
+\lstset{basicstyle=\footnotesize}
+\begin{lstlisting}
+import numpy as np
+from scipy import stats
+import pandas as pd
+import matplotlib.pyplot as plt
+import statsmodels.api as sm
+
+
+df=pd.read_csv('dataset.csv',index_col='date',parse_dates=True)
+df=df.dropna()
+df=df.drop("s.no",axis=1)
+print('Shape of data',df.shape)
+df.head()
+df['hum_max'].plot(figsize=(12,5))
+
+from statsmodels.tsa.stattools import adfuller
+
+def adf_test(dataset):
+  dftest = adfuller(dataset, autolag = 'AIC')
+  print("1.ADF:",dftest[0])
+  print("2.P-Value:", dftest[1])
+  print("3.Num Of Lag:", dftest[2])
+  print("4.Num Of Observations Used For ADF Regression and Critical Values Calculation :", dftest[3])
+  print("5. Critical Values :")
+  for key, val in dftest[4].items()
+      print("\t",key, ": ", val)
+
+adf_test(df['hum_max'])
+
+
+
+
+from pmdarima import auto_arima
+import warnings
+warnings.filterwarnings("ignore")
+
+stepwise_fit = auto_arima(df['hum_max'],trace=True,suppress_warnings=True)          
+stepwise_fit.summary()
+
+from statsmodels.tsa.arima_model import ARIMA
+
+print(df.shape)
+train=df.iloc[:-30]
+test=df.iloc[-30:]
+print(train.shape,test.shape)
+print(test.iloc[0],test.iloc[-1])
+
+import statsmodels.api as sm
+
+from statsmodels.tsa.arima_model import ARIMA
+model=sm.tsa.arima.ARIMA(train['hum_max'],order=(2, 0, 1))
+model=model.fit()
+model.summary()
+
+start=len(train)
+end=len(train)+len(test)-1
+# index_future_dates=pd.date_range(start='2023-03-01',end='2023-03-30')
+pred=model.predict(start=start,end=end,typ='levels').rename(' predictions')
+print(pred)
+# pred.index=index_future_dates
+pred.plot(legend=True)
+test['hum_max'].plot(legend=True)
+
+                                                                           
+test['hum_max'].mean()
+
+from sklearn.metrics import mean_squared_error
+from math import sqrt
+rmse=sqrt(mean_squared_error(pred,test['hum_max']))
+print(rmse)
+
+                                         
+
+model=sm.tsa.arima.ARIMA(df['hum_max'],order=(2, 0, 1))
+model=model.fit()
+df.tail()
+
+index_future_dates=pd.date_range(start='2023-02-28',end='2023-04-29')
+                                  
+# print(index_future_dates)
+pred=model.predict(start=len(df),
+end=len(df)+60,typ='levels').rename('ARIMAPredictions')
+pred.index=index_future_dates
+print(pred)
+
+pred.plot(figsize=(12,5),legend=True)
+
+
+\end{lstlisting}

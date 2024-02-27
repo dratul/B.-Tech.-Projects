@@ -1,0 +1,60 @@
+%%%%%
+%%
+%
+%% This is a complete thesis template which includes almost all the things required to prepare your thesis according to BIET Jhansi formatting guidelines
+
+%\documentclass[BTech]{bietthesis}
+%\documentclass[PhD,PrntForm]{bietthesis}
+\documentclass[BTech]{bietthesis}
+%\documentclass[MBA]{bietthesis}
+%\documentclass[BTech]{bietdiss}
+
+\input{0_settings/01_packages}
+\input{0_settings/02_commands}
+
+\begin{document}
+\input{0_settings/02_commands_after_begin}
+\input{0_settings/03_preamble}
+
+% The main text will follow from this point so set the page numbering
+% to arabic from here on.
+\pagenumbering{arabic}
+\justifying
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thesis CHAPTERs.
+\include{C_chap/C01_chap1}
+\include{C_chap/C02_chap2}
+\include{C_chap/C03_chap3}
+\include{C_chap/C04_chap4}
+\include{C_chap/C08_chap8}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Appendices.
+\appendix
+%%% Sets the label in the table of contents to "Appendix"
+\addtocontents{toc}{\string\let\string\chapappname\string\appendixname}
+%%% The appendices have to be included with `\input`, not `\include`
+%%% due to a bug in LaTeX, otherwise the appendices will also be
+%%% labeled "Chapter"
+%%% Right way: \input{appendix-a/appendix-a}
+%%% Obsolete way: \include{appendix-a/appendix-a}
+\input{D_appx/D01_app1}
+\input{D_appx/D02_app2}
+\input{D_appx/D03_app3}
+\input{D_appx/D04_app4}
+%\include{D_appx/D01_app1}
+%\include{D_appx/D02_app2}
+%%% ----- Bibliography.
+% \begin{singlespace}
+%   \bibliography{my_references}
+% \end{singlespace}
+\pagebreak
+\input{E_end/my_references}
+\addcontentsline{toc}{chapter}{REFERENCES}
+%%% ----- Bibliography.
+%%%%%%%%%%%%% The following sections are only required for research programmes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \input{0_settings/04_postamble}
+
+
+
+
+\end{document}

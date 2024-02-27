@@ -1,0 +1,66 @@
+\chapter{Important Codes/Analysis(2)}
+\section{Neural Network Model Code}
+\lstset{language=Python}
+\lstset{frame=lines}
+\lstset{basicstyle=\footnotesize}
+\begin{lstlisting}
+!pip install neuralprophet
+
+import pandas as pd
+from neuralprophet import NeuralProphet
+from matplotlib import pyplot as plt
+import pickle
+
+df = pd.read_csv('dataset.csv')
+df.head()
+
+df.Location.unique()
+
+df.columns
+
+df.dtypes
+
+df.index
+
+jhansi = df[df['Location']=='Jhansi']
+jhansi['date'] = pd.to_datetime(jhansi['date'])
+
+jhansi.dtypes
+jhansi.head()
+
+plt.plot(jhansi['date'], jhansi['hum_max'])
+plt.show()
+
+data = jhansi[['date', 'hum_max']]
+data.dropna(inplace=True)
+data.columns = ['ds', 'y']
+data.head()
+
+  
+m = NeuralProphet()
+
+                                
+model = m.fit(data, freq='D')
+
+future = m.make_future_dataframe(data, periods=60)
+forecast = m.predict(future)
+forecast.head()
+
+future
+
+plot1 = m.plot(forecast)
+
+plt2 = m.plot_components(forecast)
+
+To save the model
+
+with open('saved_model.pkl', "wb") as f:
+    pickle.dump(m, f)
+
+del m
+
+with open('saved_model.pkl', "rb") as f:
+    m = pickle.load(f)
+
+
+\end{lstlisting}
