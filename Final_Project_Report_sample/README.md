@@ -1,15 +1,25 @@
-# Electronics-Engineering
-This is for Electronics Engineering Subject related downloads
+# Project Report Formatting Rules
+Follow this rules while preparng your final year project file
 
-## Download syllabus
-https://github.com/dratul/Electronics-Engineering-BEC-201-/blob/main/Syll.pdf
+## 1
+Do not directly copy content from anywhere. You can use AI generated content but AI generated content must be properly reviewed before using in the report.
 
-## Videos lectures and Notes
-https://docs.google.com/document/d/1RtcY2vmKSOJgMpbbOF4eW88gAfgN6zxu4g9YWIx2kTw/edit?usp=sharing
+## 2
+Do not use underlined text anywhere in the report
 
 
-## Unit-01
-https://github.com/dratul/Electronics-Engineering-BEC-201-/tree/main/Unit_01_PN_Junction
+## 3
+Do not directly copy content from anywhere. You can use AI generated content but AI generated content must be properly reviewed before using in the report.
+
+## 4
+Project Report should include references from recent five years (min 50). Weblinks are not allowed
+
+## 5
+ This report will be considered in final project evaluation, therefore, ensure compliance of all formatting and writing guidelines
+
+ ## 6
+ Do not use page boarders
+
 
 
 
