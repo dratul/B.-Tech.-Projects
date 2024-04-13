@@ -1,4 +1,4 @@
-# Project Report Formatting Rules
+# Project Report writing  Guidelines
 ## 1
 Do not directly copy content from anywhere. You can use AI generated content but AI generated content must be properly reviewed before using in the report.
 ## 2
