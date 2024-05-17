@@ -1,94 +1,121 @@
 \chapter{Important Codes/Analysis(1)}
-\section{ARIMA Model Code}
+\section{Jupyter Coding}
 \lstset{language=Python}
 \lstset{frame=lines}
 \lstset{basicstyle=\footnotesize}
 \begin{lstlisting}
 import numpy as np
-from scipy import stats
-import pandas as pd
-import matplotlib.pyplot as plt
-import statsmodels.api as sm
+import pandas as pd from matplotlib 
+import pyplot as plt from sklearn.model_selection 
+import train_test_split from sklearn.naive_bayes 
+import GaussianNB, MultinomialNB from sklearn.metrics 
+import accuracy_score, confusion_matrix, classification_report 
+from sklearn.feature_extraction.text 
+import TfidfVectorizer from sklearn.pipeline 
+import make_pipeline
+import string
+import nltk
+import re
+import seaborn as sns
 
+dataset_columns = ["target", "ids", "date", "flag", "user", "text"]
+dataset_encode = "ISO-8859-1"
 
-df=pd.read_csv('dataset.csv',index_col='date',parse_dates=True)
-df=df.dropna()
-df=df.drop("s.no",axis=1)
-print('Shape of data',df.shape)
+df = pd.read_csv("training.1600000.processed.noemoticon.csv",
+encoding=dataset_encode, names=dataset_columns)
 df.head()
-df['hum_max'].plot(figsize=(12,5))
 
-from statsmodels.tsa.stattools import adfuller
+df.drop(['ids', 'date', 'flag', 'user'], axis=1, inplace=True)
+df['target'].value_counts()
 
-def adf_test(dataset):
-  dftest = adfuller(dataset, autolag = 'AIC')
-  print("1.ADF:",dftest[0])
-  print("2.P-Value:", dftest[1])
-  print("3.Num Of Lag:", dftest[2])
-  print("4.Num Of Observations Used For ADF Regression and Critical Values Calculation :", dftest[3])
-  print("5. Critical Values :")
-  for key, val in dftest[4].items()
-      print("\t",key, ": ", val)
+# Remove punctuation
+def remove_punctuation(text):
+    no_punct = [words for words in text if words not in string.punctuation]
+    words_wo_punct = ''.join(no_punct)
+    return words_wo_punct
 
-adf_test(df['hum_max'])
+df['clean_text'] = df['text'].apply(lambda x: remove_punctuation(x))
+df.head()
 
+# Remove hyperlink
+df['clean_text'] = df['clean_text'].str.replace(r"http\S+", "")
 
+# Remove emoji
+df['clean_text'] = df['clean_text'].str.replace('[^\w\s#@/:%.,_-]', '',
+flags=re.UNICODE)
 
+# Convert all words to lowercase
+df['clean_text'] = df['clean_text'].str.lower()
+df.head()
 
-from pmdarima import auto_arima
-import warnings
-warnings.filterwarnings("ignore")
+# Tokenization
+nltk.download('punkt')
 
-stepwise_fit = auto_arima(df['hum_max'],trace=True,suppress_warnings=True)          
-stepwise_fit.summary()
+def tokenize(text):
+    split = re.split("\W+", text)
+    return split
 
-from statsmodels.tsa.arima_model import ARIMA
+df['clean_text_tokenize'] = df['clean_text'].apply(lambda x: tokenize(x.lower()))
 
-print(df.shape)
-train=df.iloc[:-30]
-test=df.iloc[-30:]
-print(train.shape,test.shape)
-print(test.iloc[0],test.iloc[-1])
+import nltk
+nltk.download('stopwords')
+from nltk.corpus import stopwords
 
-import statsmodels.api as sm
+stopword = nltk.corpus.stopwords.words('english')
 
-from statsmodels.tsa.arima_model import ARIMA
-model=sm.tsa.arima.ARIMA(train['hum_max'],order=(2, 0, 1))
-model=model.fit()
-model.summary()
+def remove_stopwords(text):
+    text = [word for word in text if word not in stopword]
+    return text
 
-start=len(train)
-end=len(train)+len(test)-1
-# index_future_dates=pd.date_range(start='2023-03-01',end='2023-03-30')
-pred=model.predict(start=start,end=end,typ='levels').rename(' predictions')
-print(pred)
-# pred.index=index_future_dates
-pred.plot(legend=True)
-test['hum_max'].plot(legend=True)
+df['clean_text_tokenize_stopwords'] = 
+df['clean_text_tokenize'].apply(lambda x: remove_stopwords(x))
+df.head(10)
 
-                                                                           
-test['hum_max'].mean()
+new_df = pd.DataFrame()
+new_df['text'] = df['clean_text']
+new_df['label'] = df['target']
+new_df['label'] = new_df['label'].replace(4, 1)
+print(new_df.head())
+print('Label: \n', new_df['label'].value_counts())
 
-from sklearn.metrics import mean_squared_error
-from math import sqrt
-rmse=sqrt(mean_squared_error(pred,test['hum_max']))
-print(rmse)
+from sklearn.model_selection import train_test_split
 
-                                         
+X = new_df['text']
+y = new_df['label']
 
-model=sm.tsa.arima.ARIMA(df['hum_max'],order=(2, 0, 1))
-model=model.fit()
-df.tail()
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.05,
+random_state=42)
+print(X_train.shape, X_test.shape, y_train.shape, y_test.shape)
+y_train.value_counts()
 
-index_future_dates=pd.date_range(start='2023-02-28',end='2023-04-29')
-                                  
-# print(index_future_dates)
-pred=model.predict(start=len(df),
-end=len(df)+60,typ='levels').rename('ARIMAPredictions')
-pred.index=index_future_dates
-print(pred)
+model = make_pipeline(TfidfVectorizer(), MultinomialNB())
+model.fit(X_train, y_train)
 
-pred.plot(figsize=(12,5),legend=True)
+validation = model.predict(X_test)
+validation1 = model.predict(X_train)
+
+from sklearn.metrics import accuracy_score
+
+accuracy_score(y_train, validation1)
+
+from sklearn.metrics import accuracy_score
+
+accuracy_score(y_test, validation)
+
+cf_matrix = confusion_matrix(y_test, validation)
+sns.heatmap(cf_matrix / np.sum(cf_matrix), annot=True, fmt='.2%', cmap='Greens')
+print(classification_report(y_test, validation))
+
+train = pd.DataFrame()
+train['label'] = y_train
+train['text'] = X_train
+
+def predict_category(s, train=X_train, model=model):
+    pred = model.predict([s])
+    return pred[0]
+
+predict_category("i wanna shot myself")
+predict_category("i love you")
 
 
 \end{lstlisting}

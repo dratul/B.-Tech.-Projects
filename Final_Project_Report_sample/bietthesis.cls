@@ -367,7 +367,7 @@ nohead,includefoot,footskip=0.67in]{geometry}[2018/05/13]
 
    % ABBREVIATIONS
    %
-   \def\abbreviations{\chapter*{\centerline{ABBREVIATIONS}}
+   \def\abbreviations{\chapter*{\centerline{ABBREVIATIONS AND SYMBOLS}}
    \addcontentsline{toc}{chapter}{ABBREVIATIONS}
    }
 
@@ -441,6 +441,9 @@ nohead,includefoot,footskip=0.67in]{geometry}[2018/05/13]
 
    \renewcommand\appendixname{APPENDIX}
 %   \renewcommand\bibname{\centering REFERENCES}
+
+\renewcommand{\chaptername}{CHAPTER}
+\renewcommand\bibname{\centering REFERENCES}
    \renewcommand{\fnum@figure}{Fig. \thefigure}
 \fi
 

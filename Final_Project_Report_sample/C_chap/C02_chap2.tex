@@ -1,44 +1,20 @@
-\chapter{METHODOLOGY}
-The dataset utilized in this arrangement has been gathered from Kaggle which is “Historical Weather Data for Indian Cities” from which we have chosen the data for “Jhansi City”. The dataset was created by keeping in mind the necessity of such historical weather data in the community. The dataset was used with the help of worldweatheronline.com . The datasets contain  weather data from 01-01-2019 to 01-02-2023. The data of the city is for more than 4 years. This data can be used to visualize the change in data or can be used to predict the weather.
-\\
-\\
-The main target of this dataset can be used to predict the weather for the next day or week with huge amounts of data provided in the dataset.  This data can also be used to make visualizations which would help to understand the impact of global warming over the various aspects of the weather like precipitation, humidity, temperature, etc.
-\\
-\\
-In this project, we are concentrating on the temperature prediction of Jhansi city with the help of various machine learning algorithms and various regressions. By applying various regressions on the historical weather dataset of Jhansi's city we are predicting the temperature like first we are applying Multiple Linear regression, then Neural Network[7].
-% table aani hai idhar
-\\
-\\
-\\
-\\
-\\
-\\
-\section{Plots(Various Parameters Present in the dataset)}
-\begin{figure}[htbp]
-     \centering
-     \includegraphics[width=0.8\linewidth]{images/outputs/temp_min.png}
-     \caption{ Minimum Temperature Plot}
- \end{figure}
- \begin{figure}[htbp]
-     \centering
-     \includegraphics[width=0.8\linewidth]{images/outputs/temp_max.png}
-     \caption{ Maximum Temperature Plot}
- \end{figure}
- \begin{figure}
-     \centering
-     \includegraphics[width=0.8\linewidth]{images/outputs/hum_min.png}
-     \caption{ Minimum Humidity Plot}
- \end{figure}
- \begin{figure}[htbp]
-     \centering
-     \includegraphics[width=0.8\linewidth]{images/outputs/hum_max.png}
-     \caption{ Maximum Humidity Plot}
- \end{figure}
- \begin{figure}[htbp]
-     \centering
-     \includegraphics[width=0.8\linewidth]{images/outputs/atm_avg.png}
-     \caption{ Average Atmospheric Pressure Plot}
- \end{figure}
+\chapter{LITERATURE REVIEW}
 
-
-
+Recent attention in research has been drawn towards mining health-related information from social media platforms like Twitter, Facebook, and Reddit. There has been a concerted effort to streamline methods for identifying health data within social media, leading to significant advancements in various subdomains such as pharmacology, disease surveillance, mental health, and substance abuse monitoring \cite{correia2020mining}. Additionally, A number of researchers concentrated on discerning the primary factors influencing suicide rates in specific regions of India \cite{mehra2022mental}. In this work depression is analysed using audio, text and ECG signals. The related literature can be summarized as below:. 
+\section{Review of Speech-based Depression Detection}
+The literature review for our project report Give an overview of the methodology and findings in the domain of mental health prediction and analysis through text and social media data. 
+Researchers like Elvis Saravia, Peter Burmap, and others have leveraged Methods such as Term Frequency-Inverse Document Frequency (TF-IDF) and Pattern of Life Features (PLF) to identify repetitive terms used by patients, aiding in emotion and action prediction. Learning-based analyses by J Ang L et al. explore sentence structures and human temperaments, employing Support Vector Machines (SVM) for understanding connections. Min Hang Aung et al. and S. S. K. Jandhyala et al. utilize supervised learning techniques and multiple execution metrics to assess human actions and classifier efficiency, respectively.
+\\
+Yoshihiko et al. introduce the "Utsureko" application, utilizing Deep Learning to anticipate depression levels with high precision based on user data. Eric Gilbert et al. predict tie intensity in social networks using text analysis and web augmentation techniques, while S. C. Guntuku et al. investigate the impact of nighttime social media usage on sleep quality and depression levels, particularly among youths.
+Moreover, Quan Hu et al. utilize Chinese text analysis software for depression prediction on Sina Weibo data, demonstrating the practicality of social media for mental health assessment. Munmun De Choudhury et al. and Keumhee Kang et al. employ crowdsourcing and crawling methods to retrieve Twitter data for SVM classifier development and analysis. Additionally, Maryam Mohammed Aldarwish and Hafiz Farooq Ahmed propose a web application for categorizing online media users into different levels of depression using data from Facebook and Twitter.
+These studies collectively highlight the significance of text and social media analysis in mental health prediction and emphasize the potential of machine learning techniques in improving public well-being, especially among students and working professionals. The literature underscores the importance of understanding user behaviors on social media platforms for early detection and intervention of mental health disorders.
+\section{Review of Audio based Depression Detection}
+Detecting Subtle Signs of Depression with Automated Speech Analysis in a Non-Clinical Sample \cite{konig2022detecting}. Researchers analyzed speech features in healthy young adults. Even in non-clinical samples, changes in speech related to higher depression scores were observed. Investigating whether these speech features can serve as early markers for subsequent depression in individuals at risk is recommended. Deep Learning for Depression Detection from Textual Data \cite{amanat2022deep}, A productive model Using short-term memory (LSTM) and recurrent neural network (RNN) was proposed. The model achieved 99.0\% accuracy in predicting depression from text, outperforming frequency-based models. Early diagnosis using this approach could reduce the number of affected individuals.
+A Review has been reported on Speech Recognition-Based Prediction for Mental Health and Depression \cite{gaikwad2023speech}. Speech processing can predict mental health-related problems.
+The literature survey conducted for this project encompasses a diverse range of approaches and methodologies in the field of speech emotion recognition. Peng Song et al. introduce the Transfer Linear Subspace Learning (TLSL) framework, which aims to enhance cross-corpus recognition of speech emotions by extracting robust characteristic representations across different datasets. Their work demonstrates that TLSL outperforms baseline techniques and significantly excels in comparison to early transfer learning methods, providing promising results for speech emotion recognition \cite{swain2018databases}.
+Collectively, these studies contribute valuable insights and methodologies to the field of speech emotion recognition, addressing challenges such as cross-corpus recognition, unsupervised learning, automatic assessment of language impairments, spectral regression modeling, and depression detection using heterogeneous token-based systems. Their findings provide a comprehensive foundation for further research and development in the area of speech emotion recognition \cite{wani2021comprehensive}.
+The literature review presents two significant contributions in the field of speech emotion recognition and automated assessment of Cantonese-speaking individuals with aphasia. Jun Deng et al. focus on unsupervised learning using automatic encoders to enhance speech emotion recognition, particularly in settings with limited labeled data. Their approach combines generative and unfair training, leveraging partially supervised learning algorithms to incorporate prior knowledge from non-labeled data. Through sequential evaluation on multiple databases, they demonstrate improved recognition performance, showcasing the model's ability to utilize both labeled and non-labeled data effectively. On the other hand, Ying Qin et al. introduce a completely automated assessment system for Cantonese-speaking individuals with aphasia, utilizing text characteristics to detect language impairments. Their methodology, driven by text characteristics and Siamese network analysis, correlates significantly with aphasia severity scores, emphasizing the importance of robust ASR output and the need for larger databases of pathological speech for improved classification. Both studies underscore Potential for advanced machine learning techniques to improve speech assessment for emotion recognition and automated assessment of language impairments, pointing towards future directions in research for improving clinical diagnostics and intervention strategies.
+\section{Review of ECG based Depression Detection}
+The increasing popularity of remote health monitoring systems in recent years, with a particular focus on heart monitoring. Numerous researchers and authors have contributed to the field, presenting various modifications and advancements in remote heart monitoring systems. These works emphasize real-time observation of patients' heart conditions and other physiological parameters, utilizing a range of sensors and communication technologies such as ECG, pulse, temperature, infrared sensors, Bluetooth, GSM, WiFi, and GPS modules. Each system is designed to cater to specific conditions and requirements, reflecting the diverse needs of healthcare applications. Considering the collective contributions from these studies, a remote heart monitoring system employing both pulse and ECG sensors simultaneously emerges, aiming to detect heart diseases based on ECG signals and heart rate measurements. Real-time monitoring stands out as a critical aspect of these systems, underscoring the importance of timely and accurate data acquisition for effective healthcare interventions.
+ECG-based depression detection reveals a growing interest in leveraging electrocardiogram (ECG) signals as potential biomarkers for detecting depression. Several studies have explored the relationship between cardiac activity and mental health, highlighting the potential of ECG-based approaches in diagnosing depression. For instance, researchers have investigated heart rate variability\cite{tiwari2021analysis} (HRV) patterns and ECG signal characteristics as indicators of mood disorders, including depression. Studies such as those by [insert author names and references] have demonstrated promising results in using ECG features to differentiate between individuals with depression and healthy controls. Additionally, advancements in machine learning techniques have enabled the development of algorithms capable of analyzing ECG signals to predict depressive symptoms with high accuracy. These findings underscore the potential of ECG-based depression detection as a non-invasive and objective tool for early diagnosis and monitoring of depressive disorders, offering new insights into the physiological correlates of mental health conditions. Further research in this area holds promise for improving the understanding and management of depression through innovative ECG-based diagnostic approaches.
+\pagebreak

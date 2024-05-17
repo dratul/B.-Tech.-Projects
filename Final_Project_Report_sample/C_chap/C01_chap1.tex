@@ -2,210 +2,95 @@
 %\chapter[short entry]{long title}
 \label{chap:intro}
 \section{Introduction}
-Weather prediction is the task of predicting the atmosphere at a future time and a given area. This has been done through physical equations in the early days in which the atmosphere is considered fluid[1]. The current state of the environment is inspected, and the future state is predicted by solving those equations numerically, but we cannot determine very accurate weather for more than 10 days and this can be improved with the help of science and technology.
-\\Machine learning can be used to process immediate comparisons between historical weather forecasts and observations. With the use of machine learning, weather models can better account for prediction inaccuracies, such as overestimated rainfall, and produce more accurate predictions. Temperature prediction is of major importance in a large number of applications, including climate-related studies, energy, agricultural, medical, or etc. 
-\\There are numerous kinds of machine learning calculations, which are Linear Regression, Polynomial Regression, Random Forest Regression, Artificial Neural Network, and Recurrent Neural Network. These models are prepared depending on the authentic information given of any area. Contribution to these models is given, for example, if anticipating temperature, least temperature, greatest temperature, mean dampness, and order for 2 days. In light of this Minimum Temperature and Maximum Temperature of 7 days will be accomplished..
+Depression, or major depressive disorder (MDD), is a mental disorder characterized by feelings of sadness, emptiness, or hopelessness \cite{islam2018depression}. It's not just a passing mood or feeling down for a day or two; it's a prolonged state that significantly impacts an individual's thoughts, emotions, and behaviors.
 \\
-\\
-\\
-\\
-\\
+Depression, a pervasive mental health condition, manifests through a multitude of symptoms across emotional, physical, cognitive, and behavioral domains. Emotionally, individuals may experience Persistent depression, hopelessness and lack of interest in previously enjoyed activities alongside irritability and worthlessness. Physically, depression may induce changes in appetite and sleep patterns, resulting in fatigue and bodily discomfort. Cognitive symptoms encompass negative thinking patterns, difficulty concentrating, and memory problems, while behavioral changes include social withdrawal, decreased productivity, and neglect of personal responsibilities. These symptoms collectively impact various aspects of functioning, leading to occupational, interpersonal, and academic challenges. Fortunately, depression is treatable through a combination of psychotherapy, medication, and lifestyle modifications. Psychotherapy techniques like cognitive-behavioral therapy help address negative thought patterns, while antidepressant medications regulate brain chemistry. Lifestyle changes, such as regular exercise and social support, contribute to overall well-being, offering hope for individuals grappling with depression to regain control over their lives.
 
-\section{Purpose}
-Every Human is subject  to  adjusting  themselves  with  respect  to  weather  conditions  for  their dressing habits to  strategic organizational  planning  activities,  since the  adverse weather conditions may cause considerable damage to lives and properties. We need to be on alert for these adverse weather conditions by taking some precautions and using prediction mechanisms to detect them and provide early warning of hazardous weather phenomena. Weather prediction is an indispensable requirement for all of us. Weather is important for most aspects of human life.  Predicting weather is very useful.  Humans have attempted to make predictions about the weather, many early religions used gods to explain the weather.  Only relatively recently have humans developed reasonably accurate weather predictions.    We decided to collect weather  data  and  measure  the accuracy of predictions made using linear regression.The Weather prediction model designed by us would be of great use to the farmers and for normal beings as well. In temperature forecasting one has to distinguish between the times the forecast goes ahead, for example temperature one hour ahead or minimum and maximum temperature of a given day. Several works has been done and different artificial neural networks (ANN) models have been tested[2]. The observations include: 
+It is important for people with symptoms of depression to seek help from a mental health professional. With the right treatment and support, many people with depression can benefit from their symptoms and regain control of their lives.
+\section{Methods of Depression Detection}
+Depression detection refers to the process of identifying symptoms and signs of depression in individuals. This can involve various methods, including self-assessment questionnaires, clinical interviews conducted by healthcare professionals, observation of behavioral patterns, and the use of technology such as machine learning algorithms \cite{mahesh2020machine} analyzing data from social media or smartphone usage. Conventionally, depression detection was done through extensive clinical interviews, where psychologists studied the subject’s responses to determine their mental state\cite{islam2018depression}.
 \\
-\textbf{Temperature -}
-the measure of warmth or coldness
-\\
-\textbf{Humidity-}
-the amount of moisture in the atmosphere
-\\
-\textbf{Precipitation -}
-the amount of moisture(usually rain or snow) which falls in the ground
-\\
-\textbf{Pressure -}
-the force atmosphere applies on the environment
-\\
-\\
-\\
-\\
+In more recent approaches, multi-modal data fusion has been used. For example, a model fuses word context, audio, and video modalities to predict mental health outcomes \cite{shoumy2020multimodal,jan2017artificial}. However, video analysis is computationally very intensive and slow. A voice based depression level analysis based on response analysis for the questions posed can be quite computationally efficient and reliable approach. Voice analysis can carried out in two approaches. One is to analyze the language spoken \cite{koops2023speech} and another is to analyze the sentiment of the voice \cite{tokuno2018pathophysiological}. These approaches have been reported individually but the fusion of these two approaches is not reported.
+A number of works reported detection of depression using non-verbal signal Electroencephalogram (EEG) sensors \cite{yasin2023machine,sarma2020review}.
 
 
-% \begin{equation}
-%    BW_p=\frac{f_h - f_l}{f_c} * 100\%
-% \end{equation}
-% Broadband by the ratio :
-% \begin{equation}
-%    BW_b=\frac{f_h}{f_l}
-% \end{equation}
-% where, $ f_c$ is Center frequency,$f_l$ is Higher Cut-off frequency and $ f_h $ is lower Cut-off frequency
+Electrocardiography (ECG) has emerged as a potential tool for detecting depression by capturing subtle physiological changes associated with depressive symptoms. Analysis of Cardiac variability, which indicates the state of the autonomic nervous system function, has shown promise in identifying individuals with depression, who often exhibit reduced HRV.  Machine learning algorithms trained on ECG data can further enhance depression detection by identifying patterns indicative of depressive states. Additionally, advancements in wearable ECG monitoring enable continuous ambulatory monitoring, facilitating real-time assessment of cardiac activity in relation to depressive episodes.
+\\There are numerous methods for detection of depression such as Questionnaire based models, Machine learning model, Natural language processing model, Neuroimaging- based model, and Mobile wearable technology model. Hybrid models combine multiple data resources and analytical technique to improve depression detection accuracy. For example, integrating questionnaire responses with smartphone usage data or combining its features with NLP\cite{chowdhary2020natural}-derived linguistic features can enhance predictive performance.
+Each type of model has things it's good at and things it's not so good at. Choosing the right one depends on factors like how much data you have, how accurate you need it to be, and what will work best in real-life situations, like in a clinic or during research.
+\\
+\textbf{Deep Learning:} Deep learning can be likened to the human nervous system, as it involves the training of neural networks over collections of audio or image data to address various problems. These models, reminiscent the  Information from the human brain designed to see and understand information in a manner similar to humans. Each node within a deep learning network functions akin to a neuron in the nervous system, collectively forming an artificial neural network \cite{goodfellow2016deep}. As information passes through layers these networks, algorithms learn progressively deeper insights about the input, mirroring the way human cognition evolves. Initial layers focus on detecting low-level characteristics, such as edges in images, while subsequent layers build upon this foundation to extract more complex and abstract features, ultimately leading to a richer and more nuanced representation of the data. This hierarchical learning process allows deep learning models to develop increasingly sophisticated understandings of the input data, akin to the way the human brain processes information.
+\\
+Deep learning\cite{lecun2015deep}, A subset of cognitive skills are good at recognizing patterns in digital Information such as images, sounds and text. In the process of prediction, data is pre-trained and divided into training and testing sets, with known results for evaluation. Deep learning aims to optimize the nodes within neural networks at different levels to make predictions, striving for the most satisfactory outcomes. The process is repeated prediction and optimization to support growth of true machine intelligence. One prominent architecture within deep learning is the Convolution Neural Network (CNN), taking cues from the intricate design and operational principles of the visual cortex found in animals. In a CNN, individual neurons respond to stimuli within specific regions known as receptive fields, with overlapping receptive fields enabling coverage of the entire visual area. The response of a neuron to stimuli within its receptive field is mathematically computed through convolution operations. CNN are designed to minimize the need for preprocessing and have found widespread applications in tasks such as image and video recognition, recommendation systems, and natural language processing (NLP). Their adeptness at emulating natural processes while adeptly handling intricate data renders them a formidable asset across diverse realms of Machine intelligence\cite{babu2022sentiment}.
+
+Purpose of a project using machine learning with real-time ECG signals is to leverage technological advancements to improve the detection, monitoring, and management of depression and related mental health conditions, ultimately enhancing the well-being and quality of life of affected individuals. If not given treatment at the right time or proper medication then it might compel people to do suicide.The primary purpose is often to develop a system capable of accurately detecting signs of depression or related mental health conditions based on real-time ECG signals.
+ By detecting depressive symptoms early, the project seeks to enable timely intervention and treatment, potentially preventing the escalation of depression into more severe conditions. The project may aim to develop a system that can analyze ECG data to provide personalized recommendations or interventions tailored to the individual's specific needs and symptoms. Real-time ECG monitoring\cite{serhani2020ecg} allows for continuous tracking of an individual's physiological state, providing valuable insights into mood fluctuations and potential triggers for depressive episodes. Integrating the system into wearable devices enables remote monitoring, empowering individuals to actively manage their mental health and providing healthcare professionals with real-time data for decision-making. Beyond immediate clinical applications, the  project contributes to ongoing research in understanding the relationship between physiological markers and mental health disorders, leading to advancements in diagnosis, treatment, and prevention.
+The observations include: 
+\\
+\textbf{1. Prevalence and Impact of Depression:}
+It affects a significant number of individuals worldwide, highlighting the urgency for effective detection and intervention strategies.
+\\
+\textbf{2. Objective:}
+It specifically focuses on leveraging machine learning techniques, notably the Naive Bayes algorithm\cite{berrar2019bayes}, and Natural Language Processing (NLP) to achieve this goal.
+\\
+\textbf{3. Utilization of Speech-to-Text Technology:}
+These responses are then analyzed using the Naive Bayes algorithm to ascertain the likelihood of depression.
+\\
+\textbf{4. Implementation of Hardware Component:}
+A hardware setup is integrated into the project, comprising an ESP8266 and an AD8232 ECG sensor.
+This hardware monitors users' heart rates, with the collected data transmitted to the cloud for remote assessment by medical professionals \cite{kayte2015marathi}.
+\\
+\textbf{5. Comprehensive Approach:}
+By combining machine learning algorithms with real-time physiological data, the project seeks to offer a holistic solution for depression detection and intervention.
+The ultimate goal is to enhance patient outcomes and alleviate the strain on healthcare systems through timely and effective interventions.
+\\
+An innovative approach to audio emotion recognition, leveraging Convolution Neural Networks\cite{li2021survey} (CNN) in tandem with Mel-frequency cepstral coefficients (MFCC) as the primary features for analysis. The overarching goal of this system is to accurately classify the emotional content conveyed within audio recordings across five distinct categories: anger, calmness, fear, happiness, and sadness. Emotion recognition from audio data holds significant implications across various domains, including but not limited to human-computer interaction, Emotional assessment, psychological care, consumer analysis. Understanding the emotional nuances within speech can enhance the quality of human-computer interfaces by enabling systems to respond appropriately to user emotions. Moreover, in applications related to mental health monitoring, analyzing audio recordings for emotional cues can aid in early detection and intervention for individuals experiencing distress or mood disorders. The choice of CNN and MFCC as key components of the system architecture is both intuitive and effective. CNN, Known for its ability to extract hierarchical features complex data, are well-suited for analyzing spectro-temporal patterns present in audio signals. By leveraging the hierarchical structure of CNN, the model can learn  features at different levels of abstraction, thereby enhancing its ability to capture subtle variations in emotional expression. Meanwhile, MFCCs serve as a Compact and data representation of the spectral envelope of the audio signal, particularly suitable for speech and audio processing tasks. By computing MFCCs from audio recordings, the system transforms raw waveform data into a feature space that is conducive to pattern recognition and classification. This transformation enables the model to focus on relevant acoustic characteristics while mitigating the effects of irrelevant noise or variability in recording conditions.
+\\
+The objective of this project is to utilize the developed Automated Speech Emotion Recognition\cite{wani2021comprehensive} system to differentiate between individuals who exhibit signs of depression and those who do not based on their speech patterns. By leveraging Convolution Neural Network (CNN) algorithms and employing various emotion recognition modules, the system aims to accurately classify speech samples into categories corresponding to different emotional states, including happiness, surprise, anger, neutral state, and sadness. The project utilizes a dataset of speech samples, with acoustic features extracted using the LIBROSA package, to train and test the system. Through the analysis of these extracted characteristics, the system aims to achieve high classification performance, enabling the identification of emotional states associated with depression in speech signals.
+\\
+
 \section{Machine Learning }
-Machine Learning  is  the  study  of  computer  algorithms  that  improve  automatically through experience. Applications range from data mining programs that discover general rules in large  data  sets,  to  information  filtering  systems  that  automatically  learn  users' interests. 
+Machine learning is the study of computer algorithms that improve with experience.Throughout history, humans have crafted various tools to simplify tasks, showcasing the remarkable creativity of the human mind. These inventions, from machines for travel to those powering industries and computing, have significantly enhanced daily life. One such innovation, Machine Learning (ML), as defined by Arthur Samuel, grants a computer's ability to learn without explicit instructions. Samuel, renowned for his checkers-playing program, laid the foundation for machines to handle data more efficiently. Sometimes, deciphering insights from vast datasets proves challenging for humans alone. This is where machine learning steps in, offering a solution by teaching machines to understand and process data autonomously. With the exponential growth of available datasets, the demand for machine learning continues to soar. Industries across the board are harnessing ML to extract invaluable insights from their data.At the heart of machine learning lies the goal of empowering machines to glean knowledge directly from the data they receive, devoid of explicit human guidance. Mathematicians and programmers are perpetually delving into a myriad of strategies to equip machines with the autonomy to absorb insights autonomously from vast pools of information. 
 \\
-Machine Learning is concerned with the design and development of algorithms that allow computers to  evolve  behaviors  based  on  empirical  data,  such  as  from  sensor  data  or databases[2].  A major  focus  of  Machine  Learning  research  is  to  automatically  learn  to recognize complex  patterns  and make intelligent  decisions  based on  data;  the difficulty lies  in  the  fact  that  the  set  of  all  possible  behaviors  given  all  possible  inputs  is  too complex to describe generally in programming languages, so that in effect programs must automatically describe programs.
+When delving into machine learning, a diverse range of algorithms come into play. Data scientists emphasize that there is no one-size-fits-all algorithm. Instead, the choice depends on the specific problem at hand, the difference between matching, and the most appropriate model.Some commonly used algorithms include Decision Trees, which act like a flowchart to make decisions based on input features; Support Vector Machines \cite{cervantes2020comprehensive}, One aspect aiding in the classification of data points into distinct categories involves the utilization of algorithms. Additionally, neural networks, drawing inspiration from the intricacies of the human brain, excel in handling intricate pattern recognition tasks. Each algorithm fulfills a specific role, finely tuned to address the intricacies of the problem domain, showcasing the agile and flexible essence of machine learning within our contemporary data-centric environment.
 \\
-The poor performance results produced by statistical estimation models have flooded the estimation area for over the last decade. Their inability to handle categorical data, cope with  missing data  points,  spread  of data  points  and  most  importantly  lack  of  reasoning capabilities  has  triggered  an  increase  in  the  number  of  studies  using  non-traditional methods  like  machine  learning  techniques.  The  area  of  machine  learning  draws  on concepts  from  diverse  fields  such  as  statistics,  artificial  intelligence,  philosophy, information  theory,  biology,  cognitive  science,  computational  complexity  and  control theory[3].
-\\
-\\
-\\
-\\
+For the past ten years, traditional statistical models have not been performing well in estimating data. They struggle with handling grouped data, dealing with missing information, managing data that is spread out unevenly, and most importantly, they lack the ability to reason through complex data. Due to these shortcomings, more researchers are now turning to machine learning methods, which are more effective. Machine learning uses ideas from many different fields, such as statistics for data analysis, artificial intelligence for creating learning systems, philosophy for understanding knowledge, information theory for managing information, biology for natural learning processes, cognitive science for studying human thinking, computational complexity for understanding computational limits, and control theory for designing decision-making systems. This diverse foundation helps machine learning handle data better and make more accurate predictions.
 \\
 
-% Typically, the return loss is determined as follows:
-% \begin{equation}
-%     R = 10\log_{10}(\frac{Pi}{Pr})
-% \end{equation}
-% where $P_i$ is the forward power and $P_r$ is the reflected power 
-% when reflection coefficient $( \Gamma )$ = $\sqrt{\frac{P_r}{P_i}}$  , ${P_r}$ is reflected power and $P_i$ is forward power. 
-% Thus,
-% \begin{equation}
-% R(dB) =  -20\log_{10}(\Gamma)
-% \end{equation}
-% when utilizing a vector network analyzer to measure a network's properties. The return loss is a crucial characteristic as a result.
-
-% \subsection{Voltage standing wave ratio }
-
-% According to the voltage standing wave ratio (VSWR) definition, the VSWR is determined by dividing the line's maximum voltage by its minimum voltage. The sum of the voltage components from the forward power and the reflected power causes the voltage variations.
-% \begin{equation}
-%     VSWR= \frac{Vmax}{Vmin}
-% \end{equation}
-% VSWR stated in terms of the voltages for the forward and reflected waves.\\
-% \begin{equation}
-%     VSWR= \frac{Vfwd+Vref}{Vfwd-Vref}
-% \end{equation}
-% VSWR as a function of the reflection coefficient. 
-% \begin{equation}
-%     VSWR =\frac{(1+|\Gamma| )}{(1-|\Gamma|)}
-% \end{equation}
-% where, $\Gamma$ = reflection coefficient, the reflection coefficient, $\Gamma$ is defined as the ratio of the reflected current or voltage vector to the forward current or voltage.
-% \subsection{Input Impedance}
-
-% For maximum power transfer in an antenna, we need to keep the VSWR (voltage standing wave ratio) as low as possible, which can only be done when we achieve impedance matching. For this purpose, we need to take input impedance carefully into account. It is the total sum of resistance and reactance at the input terminal.
-
-% \subsection{Resonant frequency }
-
-% The resonant frequency is the frequency at which the patch receives the most power, i.e., when the feedline and patch's impedances are most closely matched. Additionally, it is the point at which the impedance is solely resistive and inductive reactance equals capacitive reactance\cite{kraus2006antennas}.
-
-% \subsection{Radiation Pattern}
-
-% The radiation pattern is the pictorial representation of antenna radiation. When the antenna radiates, then radiation lobes are created, which consist of some prominent lobes called the main lobe or major lobe, and various side lobes or minor lobes. These lobes account for the directivity of the antenna as to which direction the antenna radiates the most\cite{kraus2006antennas}.
-
-% \subsection{Half Power Beam width}
-% Half Power Beam width (HPBW) is evaluated by the angular width of the major lobes at $ \log \frac{1}{\sqrt 2} $ points (or $-3db$ points)\cite{balanis2015antenna}.
-
-% \subsection{Polarization}
-% When an antenna radiates electromagnetic waves, an electric field is induced, and the orientation of such an induced electric field is called polarization in the antenna. There can be broadly three kinds of polarization, namely, linear, circular, and elliptical\cite{kraus2006antennas}. 
-
-% \subsection{Gain}
-% “The ratio of radiation intensity in one direction to that which would be obtained if the antenna were to broadcast its power isotopically.”\cite{balanis2015antenna} 
-% \\it is given as 
-% \begin{equation}
-% G = \frac{U(\theta,\phi)}{U_a} = \frac{4\phi U (\theta,\phi)}{P_a}
-% \end{equation}
-% where $P_a$ is the input power to the antenna.
-% An antenna's efficiency determines its gain. \\(Gain = Directivity X radiation efficiency)\cite{pues1989impedance}
-% The gain of an antenna can also be expressed in terms of its effective aperture$A_e$ and wavelength. 
-% \\This is,  
-% \begin{equation}
-%    G=\frac{4\pi}{\lambda^2}A_e
-% \end{equation}
-% \subsection{Directivity}
-
-% The maximum gain in a specific or intended direction is referenced as directivity. 
-% \subsection{Efficiency}
-
-% "The proportion of an antenna's radiated power to its input power is known as antenna efficiency." Antenna efficiency ($\eta_{ant}$) and Radiation efficiency ($\eta_{rad}$) are both calculated in percentage terms ( \%).
-% \\Below is a mathematical expression for antenna efficiency.
-% \begin{equation}
-%  \eta_{ant} = \frac{P_{rad}}{P_{input}}   
-% \end{equation}
-% where,
-% $\eta_{ant}$ is antenna efficiency, $P_{rad}$ is the power radiated, $P_{input}$ is the input power.
-\section{Types of Machine Learning}
-
-There  are  two  main  types  of  Machine  Learning  algorithms.  In  this  project,  supervised learning  is  adopted  here  to  build  models  from  raw  data  and  perform  regression  and classification.
+\section{Deep Learning}
+Depression persists as a profound and widespread health issue on a global scale, affecting millions of individuals and presenting formidable obstacles when left unrecognized or unaddressed. At the core of this challenge lies the critical need for promptly identifying those who may be at risk of developing depression or are already grappling with its effects. Presently, many existing methodologies hinge upon self-reported symptoms, which, while commonly utilized, come with inherent limitations. Self-reporting can be unreliable, as individuals may understate or fail to recognize their own symptoms, leading to delayed intervention or inaccurate assessments. Furthermore, relying solely on self-reporting may not capture subtle changes indicative of early-stage depression, thereby impeding timely interventions. As a result, there's a pressing necessity for more effective and nuanced approaches to detect depression, ones that transcend the reliance on self-reported symptoms and leverage a combination of objective indicators and advanced screening techniques. By adopting such comprehensive strategies, healthcare professionals can better identify individuals at risk and provide timely interventions, ultimately mitigating the impact of depression on individuals and societies.
 \\
-\\\textbf{Supervised Learning-}Supervised Learning is a machine learning paradigm for acquiring the input output relationship information of a system based on a given set of paired input- output  training  samples.  As  the  output  is regarded  as  the  label  of  the  input  data  or  the supervision,  an  input-output  training  sample  is  also  called  labeled  training  data,  or supervised data. Learning from Labeled Data, or Inductive Machine Learning.    The goal of supervised learning is to build an artificial system that can learn the mapping between  the  input  and  the  output,  and  can  predict  the  output  of  the  system  given  new inputs. If the output takes a finite set of discrete values that indicate the class labels of the input,  the  learned  mapping  leads  to  the  classification  of  the  input  data.  If  the  output takes continuous values, it leads to a regression of the input. It deduces a function from training data that maps inputs to the expected outcomes. The output of the function can be a predicted continuous value (called regression), or a predicted class label from a discrete set  for  the  input  object  (called  classification).  The  goal  of  the  supervised  learner  is  to predict  the  value  of  the  function  for  any  valid  input  object  from a  number  of  training examples.  The  most  widely  used  classifiers  are  the  Neural  Network  (Multilayer perceptron),  Support  Vector  Machines,  Regression Analysis, Artificial neural networks and time series analysis[4].
-% . Four main categories can be used to classify all microstrip antennas are given in Figure \ref{Fig 1.2 Basic Categories of MSAs}
+The initiative represents a groundbreaking endeavor poised to transform the landscape of depression detection, offering healthcare professionals an unparalleled tool for comprehensive and precise assessment. It acknowledges the paramount significance of early intervention in addressing mental health conditions, particularly depression, which can exert profound and long-lasting effects on individuals if left untreated. By prioritizing early detection, the project aims to alleviate the strain on healthcare systems, which often face significant challenges in managing the consequences of undiagnosed or untreated depression. Through timely identification and intervention, the initiative aspires to optimize patient care, ensuring that individuals receive the support and treatment they need to navigate their mental health journey effectively. Ultimately, by facilitating early intervention and improving the accuracy of depression detection, the project endeavors to enhance the quality of life for millions affected by depression, offering hope for a brighter and healthier future.
 \\
-\\\textbf{Unsupervised Learning-}
-Unsupervised learning studies  how  systems  can  learn  to represent  particular  input  patterns  in  a  way  that  reflects  the  statistical  structure  of  the  overall collection  of  input  patterns.  By contrast  with  supervised  learning  or  reinforcement learning, there are no explicit target outputs or environmental evaluations associated with each input; rather the unsupervised learner brings to bear prior biases as to what aspects of the structure of the input should be captured in the output.
-
-
- %The fractional operator is represented by
- %$  _a D_t ^\alpha f(t)$ with $ t,a\in %\textbf{R} $ where $ t>a $%
-% \begin{figure}[htpb]
-% 	\begin{center}
-% 		\includegraphics[width=0.9\linewidth]{images/C_1/Fig 1.3 Microstrip antenna configuration.png}
-% 		\caption{Microstrip antenna configuration}
-% 		\label{Fig 1.3 Microstrip antenna configuration}
-% 	\end{center}
-% \end{figure}
-% Additionally, the patch can be of various shapes and sizes as per the requirement of antenna design. For various shapes of patches see fig \ref{Fig 1.4 Various patch Shapes} \cite{chourasiacomparative}
-% \begin{figure}[htpb]
-% 	\begin{center}
-% 		\includegraphics[width=0.9\linewidth]{images/C_1/Fig 1.4 Various patch Shapes.png}
-% 		\caption{Various patch Shapes}
-% 		\label{Fig 1.4 Various patch Shapes}
-% 	\end{center}
-% \end{figure}
-
-% \begin{figure}[htpb]
-% 	\begin{center}
-% 		\includegraphics[width=0.7\linewidth]{images/C_1/Fig 1.5  structure of RMSPA.png}
-% 		\caption{Structure of RMSPA}
-% 		\label{Fig 1.5 Structure of RMSPA}
-% 	\end{center}
-% \end{figure}
-
-% MSPAs can be designed by taking a rectangular patch and FR-4 substrate with a worthwhile thickness whose dielectric constant lies in the range of 3.8. to 4.8 which is considered to be as low in value to reap the desired gain of the antenna leading to a substantially good performance refer figure \ref{Fig 1.5 Structure of RMSPA}.
-
-% As the microstrip patch antenna is a resonant antenna, thereby feedlines become perhaps the most important aspect of an antenna as it allows it to drive on the desired frequency. We have several methods by which antenna can be fed. Most admired feeding techniques \cite{kraus2006antennas} are microstrip feedline, Aperture Coupling, Proximity Coupling, Coaxial Probe, and coplanar waveguide (CPW) feeding. Among the list, we choose that method with which we can derive maximum power transfer and minimum input loss.
-
-% \subsection{Microstrip feedline}
-
-% A microstrip feedline is a narrow conducting strip that is minuscule in terms of width as compared to that of the patch. The feed-line has the advantage that it can be easily constructed by just etching along with the patch of the antenna, giving rise to the planar structure. The feed locale can be maneuvered easily leading to flawless impedance matching\cite{kraus2006antennas}.
-
-
-%  \subsection{Aperture Coupling}	
- 
-% The aperture technique for antenna feed is used when the antenna consists of two substrates (i.e., lower and upper substrate), provided that the ground plane is between the substrates and a microstrip feedline is underneath the lower substrate\cite{kumar2013performance}. 
-
-%  \subsection{Proximity Coupling}
- 
-% Unlike the aperture technique for antenna feed, the ground plane lies underneath the two substrates. In proximity coupling the spurious radiation is low. Although this technique is easy to design, we encounter a lot of complications with the fabrication\cite{kraus2006antennas} \cite{kumar2013performance}. 
-
-% \subsection{Coaxial Probe}
-
-% In the coaxial probe technique for antenna feed, the coaxial probe's inner conductor is attached to a patch, allowing the element to radiate while the outside conductor makes contact with the ground plane. Since the intended location of the feed inside the patch can be easily matched to the input impedance, this technique is more extensively used. However, the construction of the antenna is a complicated job\citep{kumar2013performance}.
-
-% \subsection{Coplanar Waveguide (CPW) feeding}
-
-% The coplanar waveguide technique for antenna feed has a simple configuration in which there is no need for coupling via holes\cite{yahia2012b13}. 
-\section{Problem Identification}
- Weather prediction is a useful tool for informing populations of expected weather conditions. Weather prediction is a complex topic and poses significant variation in practice. We will attempt to understand and implement a weather prediction application.
+The task of Automated Speech Emotion Recognition presents significant challenges due to the inherent gap between acoustic characteristics and human emotions. This gap is compounded by the variability in emotional expression among individuals, as well as the diverse ways in which emotions manifest in speech, including variations in energy and pitch. Consequently, detecting emotions in speech signals, particularly depression, poses a demanding task in computational vision. The objective of this project is to address this challenge by developing a system based on Convolution Neural Network (CNN) algorithms for automated speech emotion recognition. The system aims to differentiate between depressed and non-depressed individuals by classifying emotions such as happiness, surprise, anger, neutral state, and sadness. Leveraging a dataset of speech samples and acoustic feature extraction using the LIBROSA package, the project seeks to achieve accurate classification performance based on extracted characteristics, ultimately enabling the determination of the emotional state conveyed within speech signals for the identification of depression.
 \\
+Deep learning is a part of machine learning that works like the human brain to understand and learn from data. It uses artificial neural networks, which are computer programs designed to act like brain cells.Deep learning exhibits exceptional prowess in managing extensive volumes of data encompassing images, text, and audio, leveraging this information to formulate predictions or decisions through learning processes.
+At the core of deep learning are artificial neural model networks \cite{wu2018development} (ANN), Deep learning employs artificial neural model comprising interconnected nodes arranged in layers, which consist of an input layer, one or more hidden layers, and an output layer. Within this network, each node, analogous to a neuron, receives input signals, processes them, and transmits the outcomes to the subsequent layer. The connections between these nodes possess weights that dictate their strength. Through a process known as backpropagation, during training, these weights are iteratively adjusted to minimize the disparity between the predicted output and the ground truth, thereby enhancing the model's accuracy.
 \\
-A detailed study of the process should be done with a variety of  techniques  such  as  interviews,  questionnaires  etc.  Data collected by these sources must be evaluated in order to reach a conclusion. The conclusion is to understand how the system works. This program is called the existing system. The current system  is now  being processed  and the problem  location is identified. The designer now acts as a problem solver and tries to solve the problems the business is facing[5]. Solutions are offered as suggestions. The proposal is then weighed against an existing system  by analysis  and  selection  is best.  The  suggestion is presented to the user for user approval.
+Deep learning models can be classified into two main types: feed forward neural networks and recurrent neural networks\cite{wang2022predrnn} (RNNs). Feed forward neural networks, also known as Multilayer perceptrons (MLPs), process data in a sequential manner, passing information from the input layer through the hidden layers to the output layer. RNN, on the other hand, are designed to handle sequential data, such as time-series data or natural language text. They have connections that loop back on themselves, allowing them to capture temporal dependencies in the data.
+A fundamental characteristic of hierarchical neural networks lies in its capacity to autonomously acquire hierarchical representations of data. Within a deep neural network comprising multiple hidden layers, each stratum progressively discerns abstract features or representations from the input data. Consider an image recognition scenario: the initial layer might discern rudimentary features such as edges and corners, whereas subsequent layers are adept at recognizing intricate patterns like shapes or objects, thereby reflecting the network's hierarchical learning process.
 \\
+Deep learning has achieved remarkable success in a wide range of applications, including computer vision, natural language processing, speech recognition, and healthcare. It has revolutionized fields such as image classification, object detection, and language translation, often surpassing human-level performance on certain tasks. This is partly due to its ability to automatically learn intricate patterns and representations from vast amounts of data, without the need for explicit feature engineering.
+However, deep learning also has its Restraints. Training deep neural networks requires large amounts of labeled data and significant computational resources. Deep learning models can also be prone to more train it where they perform well on the training data but generalize poorly to unseen data. Additionally, interpreting and explaining the decisions made by deep learning models can be challenging, leading to concerns about their transparency and accountability.
+Overall, deep learning represents a powerful and versatile approach to machine learning, with the potential to drive advancements in artificial intelligence and transform various industries and domains. As research in this field continues to progress, deep learning is expected to play an increasingly significant role in solving complex real-world problems and unlocking new opportunities for innovation and discovery.
+\section{Natural Language Processing }
+Machine learning models represent sophisticated computational systems designed to extract intricate patterns and relationships inherent within datasets. Their primary function is to analyze data and derive insights that enable them to make informed predictions or decisions when confronted with new, previously unseen data. In the realm of Linguistic processing, the models are finely crafted to decipher and interpret human language, engaging in a wide spectrum of tasks including emotional analysis, translation, text classification, and more. By undergoing rigorous training on extensive collections of textual data, NLP models grasp the intricacies of language structure, semantics, and context. This empowers them to effectively grasp and analyze human-generated text with precision and accuracy.
 \\
-Every  Human is subject  to  adjusting  themselves  with  respect  to  weather  conditions  for  their dressing habits to  strategic organizational  planning  activities,  since the  adverse weather conditions may cause considerable damage to lives and properties. 
+Similarly, in the domain of image recognition, machine learning models are trained to identify and categorize objects depicted within images. This process involves exposing the model to a large dataset comprising pairs of input images and corresponding labels or categories. By analyzing these input-output pairs, the model learns to recognize distinctive features and patterns associated with various objects, thereby developing the ability to accurately classify objects within images. Through iterative exposure to diverse examples during the training phase, the model refines its understanding of visual concepts and generalizes its knowledge to effectively classify objects in new, unseen images.
 \\
+Fundamental to the training The machine learning process is concept of learning from examples. By systematically exposing the model to a diverse range of input data and associated outcomes, it refines its internal parameters and algorithms to better capture underlying patterns and relationships in literature. This creates the pattern to generalize its knowledge and effectively apply it to make accurate predictions or classifications when presented with novel data instances. In essence, machine learning models represent powerful tools for extracting insights from complex datasets and facilitating automated decision-making across various domains, ranging from natural language understanding to image recognition.
 \\
+The Naive Bayes\cite{saifuzzaman2021machine} method stands out as a widely used algorithm in training machine learning models, belonging to the family of probabilistic classifiers rooted in Bayes theorem\cite{sidebotham2020most}. At its core, Bayes' theorem provides a framework for calculating conditional probabilities, enabling the assessment of the likelihood of a hypothesis given observed evidence. What distinguishes the Naive Bayes approach is its assumption of feature independence given the class variable, which simplifies the computational process but may not always reflect real-world dependencies accurately. This simplification earns the algorithm its "naive" moniker. Particularly in the domain of natural language processing (NLP), the Multinomial Naive Bayes algorithm holds prominence due to its effectiveness in handling tasks such as text classification and sentiment analysis.
 \\
+In practice, the Multinomial Naive Bayes algorithm employs probabilistic calculations to address these NLP tasks by determining the most probable class or tag for a given input data instance. Despite its inherent simplifications, the Naive Bayes algorithm is widely favored for its simplicity, computational efficiency, and effectiveness across various classification tasks. Its straightforward implementation and relatively low computational requirements make it particularly appealing for applications where real-time or resource-constrained processing is essential. Consequently, the Naive Bayes algorithm has emerged as a cornerstone in the realm of machine learning, playing a pivotal role, especially in NLP applications where it continues to demonstrate its utility and versatility in handling diverse text-based tasks with admirable accuracy and efficiency.
 \\
+In practical terms, the Naive Bayes algorithm functions by evaluating the likelihood of a specific class or label given the observed features present in the data. This evaluation is carried out by calculating the probability of each class or label occurring, given the values of the features, under the assumption of feature independence. This assumption simplifies the computation of these probabilities, making it feasible to estimate them even with large datasets. In the context of natural language processing (NLP) tasks, such as text classification, the Naive Bayes algorithm computes the probability of a particular class or category given the words or features present in the input text. Despite its simplistic assumption of feature independence, Naive Bayes often delivers surprisingly accurate results in practice, particularly in scenarios where the independence assumption holds reasonably well or when working with relatively small datasets.
 \\
+One of the key advantages of Naive Bayes lies in its ease of implementation and computational efficiency. The algorithm's straightforward approach makes it relatively simple to understand and apply, even for those new to machine learning. Additionally, its computational efficiency makes it well-suited for handling large volumes of data, making it a practical choice for real-world applications. Moreover, Naive Bayes tends to perform admirably well in situations where the data exhibits a clear separation between classes or when the features are largely independent of each other. These favorable characteristics contribute to its widespread adoption across various domains, particularly within NLP, where it has proven to be effective in tasks such as text classification, spam detection, and sentiment analysis.
 \\
+Despite its inherent simplicity and the oversimplified assumptions it operates under, Naive Bayes remains a valuable tool in the machine learning toolkit. Its robust performance in many practical scenarios, coupled with its ease of implementation and computational efficiency, make it a popular choice for a wide range of classification tasks. As such, Naive Bayes continues to be extensively utilized in machine learning workflows, contributing to the advancement of various applications, particularly within the realm of natural language processing.
 \\
+The provided content outlines the foundational concepts and practical applications of machine learning, particularly focusing on natural language processing (NLP) and the Naive Bayes algorithm. Machine learning models are depicted as advanced computational systems adept at discerning intricate patterns and relationships within datasets, thereby facilitating informed predictions or decisions when presented with new data. In NLP, these models are tailored to comprehend and interpret human language, engaging in tasks such as sentiment analysis and language translation. Similarly, in image recognition, machine learning models are trained to identify and categorize objects within images, leveraging extensive datasets to refine their understanding of visual concepts.
 \\
+The Naive Bayes algorithm is highlighted as a prevalent and effective approach within machine learning, particularly in NLP tasks. It operates by computing the probability of a given class or label based on observed features, assuming independence between features to simplify computations. Despite its simplistic assumptions, the Naive Bayes algorithm is favored for its simplicity, efficiency, and effectiveness across various classification tasks, especially when dealing with text-based data. Its ease of implementation and computational efficiency make it a practical choice for real-world applications, contributing to its widespread adoption in domains such as NLP, where it excels in tasks such as classifying text and evaluating opinions.
 \\
-\\
-
-\section{Use of Algorithms }
-There are different methods of foreseeing temperature utilizing Regression and a variety of Functional Regression, in which datasets are utilized to play out the counts and investigation. To Train, the calculations 80 percent size of information is utilized and 20 percent size of information is named as a Test set. 
-\\
-\\
-For Example, if we need to anticipate the temperature of Jhansi, India utilizing these Machine Learning calculations, we will utilize 8 Years of information to prepare the calculations and 2 years of information as a Test dataset. The as opposed to Weather Forecasting utilizing Machine Learning Algorithms which depends essentially on reenactment dependent on Physics and Differential Equations, Artificial Intelligence is additionally utilized for foreseeing temperature: which incorporates models, for example, Linear regression, Decision tree regression, Random forest regression[6].
-\\
-\\
-To finish up, Machine Learning has enormously changed the worldview of Weather estimating with high precision and predictivity. What's more, in the  couple of years greater progression will be made utilizing these advances to precisely foresee the climate to avoid catastrophes like typhoons, Tornados, and Thunderstorms.
+Overall, the content underscores the significance of machine learning in extracting insights from complex datasets and automating decision-making processes across diverse domains.
