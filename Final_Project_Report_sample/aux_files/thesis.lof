@@ -1,0 +1,39 @@
+\textbf {Figure}\hfill \textbf {Title}\hfill \textbf {Page}\par 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Project Flow}}{19}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Data Preprocessing}}{23}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Venn Diagram }}{34}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Fully Connected Artificial Neural Network }}{36}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Biological neurons to Artificial neurons }}{38}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Image Processed via CNN}}{43}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Project Flow of CNN Model}}{45}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Emotion Distribution}}{46}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Amplitude Plot of Raw wave}}{47}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Spectrogram Plot}}{47}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces ESP 8266}}{57}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces ESP 8266 Pinout}}{57}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces AD 8232}}{62}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces ECG Electrode}}{69}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Block Diagram}}{71}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Process Flow}}{72}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Standard ECG Signal}}{73}{figure.caption.44}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Prototype of Project}}{78}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The publishing of data into Ubidots}}{79}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces The Signal in Serial Monitor}}{80}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Dashboard of Ubidots}}{81}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Result of ML Model}}{82}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Predictions of ML Model}}{83}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Web Page of our Project}}{84}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Evaluation of Depression}}{84}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Result of Depression Detection}}{85}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces About section of web page}}{85}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Prediction of Audio Based Model}}{87}{figure.caption.55}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsfinish 

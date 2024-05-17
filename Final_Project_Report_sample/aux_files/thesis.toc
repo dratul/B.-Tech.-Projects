@@ -1,0 +1,58 @@
+\contentsline {chapter}{DECLARATION}{ii}{section*.1}%
+\contentsline {chapter}{DEDICATION}{iii}{chapter*.4}%
+\contentsline {chapter}{PROJECT OUTCOMES}{iv}{section*.5}%
+\par 
+\afterpage {\textbf {Table of Contents} (continued)\hfill \textbf {Page}\par \vspace \medskipamount }
+\contentsline {chapter}{ABSTRACT}{vii}{chapter*.9}%
+\contentsline {chapter}{ACKNOWLEDGEMENT}{viii}{chapter*.9}%
+\contentsline {chapter}{ CONTRIBUTIONS}{ix}{section*.11}%
+\contentsline {chapter}{MEMBERS CONTRIBUTIONS}{ix}{section*.12}%
+\contentsline {chapter}{ABBREVIATIONS}{x}{chapter*.13}%
+\contentsline {chapter}{ABBREVIATIONS AND SYMBOLS}{x}{chapter*.13}%
+\contentsline {chapter}{LIST OF TABLES}{xii}{chapter*.14}%
+\contentsline {chapter}{LIST OF FIGURES}{xv}{chapter*.15}%
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Methods of Depression Detection}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Machine Learning }{6}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Deep Learning}{7}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Natural Language Processing }{10}{section.1.5}%
+\contentsline {chapter}{\numberline {2}LITERATURE REVIEW}{14}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Review of Speech-based Depression Detection}{14}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Review of Audio based Depression Detection}{15}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Review of ECG based Depression Detection}{17}{section.2.3}%
+\contentsline {chapter}{\numberline {3}METHODOLOGY}{18}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Project Flow}{18}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Dataset Description}{19}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Project Procedure}{20}{section.3.3}%
+\contentsline {section}{\numberline {3.4}ML Model}{30}{section.3.4}%
+\contentsline {section}{\numberline {3.5}ML Algorithm: Naive Bayes}{31}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Deep Learning:Neural Network}{33}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Artificial Neural Network}{35}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Artificial Neuron vs Biological Neurons}{37}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Learning of ANN}{38}{subsection.3.6.3}%
+\contentsline {section}{\numberline {3.7}Algorithm:Convolution Neural Network}{39}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Data Set Description:Audio Sentiment Recognition}{43}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Project Flow of Audio based Depression Detection}{45}{section.3.9}%
+\contentsline {section}{\numberline {3.10}Real Time ECG Monitoring}{50}{section.3.10}%
+\contentsline {section}{\numberline {3.11}Hardware and Methods}{52}{section.3.11}%
+\contentsline {subsection}{\numberline {3.11.1}ESP 8266 :}{56}{subsection.3.11.1}%
+\contentsline {subsection}{\numberline {3.11.2}AD 8232}{58}{subsection.3.11.2}%
+\contentsline {subsection}{\numberline {3.11.3}ECG Electrode}{63}{subsection.3.11.3}%
+\contentsline {section}{\numberline {3.12}Block Diagram of project}{69}{section.3.12}%
+\contentsline {section}{\numberline {3.13}Experimental Configuration}{71}{section.3.13}%
+\contentsline {section}{\numberline {3.14}Key Challenges of ECG Monitoring System}{75}{section.3.14}%
+\contentsline {section}{\numberline {3.15}Addressing the Challenges}{76}{section.3.15}%
+\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{78}{chapter.4}%
+\contentsline {section}{\numberline {4.1}ECG Monitoring Through Ubidots}{78}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Depression Detection Through ML Model}{82}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Result of Audio based Depression Detection}{87}{section.4.3}%
+\contentsline {chapter}{\numberline {5}CONCLUSION}{89}{chapter.5}%
+\let \chapappname \appendixname 
+\contentsline {chapter}{\numberline {A}Important Codes/Analysis(1)}{90}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Jupyter Coding}{90}{section.A.1}%
+\contentsline {chapter}{\numberline {B}Important Codes/Analysis(2)}{94}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Code For ESP 8266}{94}{section.B.1}%
+\contentsline {chapter}{\numberline {C}Weekly Report}{97}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Plagiarism Report}{98}{appendix.D}%
+\contentsfinish 

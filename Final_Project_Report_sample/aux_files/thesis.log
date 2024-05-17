@@ -1,0 +1,2501 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.2)  17 MAY 2024 18:27
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./thesis.tex
+(thesis.tex
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-09>
+(bietthesis.cls
+Document Class: bietthesis 2022/04/20 Class for BIET Jhansi Dissertations
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count186
+\c@chapter=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count195
+\Gm@cntv=\count196
+\c@Gm@tempcnt=\count197
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks18
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(atbeginend.sty)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen149
+\captionmargin=\dimen150
+\caption@leftmargin=\dimen151
+\caption@rightmargin=\dimen152
+\caption@width=\dimen153
+\caption@indent=\dimen154
+\caption@parindent=\dimen155
+\caption@hangindent=\dimen156
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count198
+\c@continuedfloat=\count199
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip50
+\bibsep=\skip51
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count266
+))
+(0_settings/01_packages.tex
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
+2.
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen157
+))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen158
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count267
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count268
+\leftroot@=\count269
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count270
+\DOTSCASE@=\count271
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen159
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count272
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count273
+\dotsspace@=\muskip16
+\c@parentequation=\count274
+\dspbrk@lvl=\count275
+\tag@help=\toks22
+\row@=\count276
+\column@=\count277
+\maxfields@=\count278
+\andhelp@=\toks23
+\eqnshift@=\dimen160
+\alignsep@=\dimen161
+\tagshift@=\dimen162
+\tagwidth@=\dimen163
+\totwidth@=\dimen164
+\lineht@=\dimen165
+\@envbody=\toks24
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks26
+\thm@bodyfont=\toks27
+\thm@headfont=\toks28
+\thm@notefont=\toks29
+\thm@headpunct=\toks30
+\thm@preskip=\skip55
+\thm@postskip=\skip56
+\thm@headsep=\skip57
+\dth@everypar=\toks31
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
+Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
+\AP@output=\toks32
+\AP@partial=\box53
+\AP@footins=\box54
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/emptypage\emptypage.sty
+Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty 
+pages
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/authoraftertitle\author
+aftertitle.sty
+Package: authoraftertitle 2020/07/20 v1.0 package for Author after Titlepage
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
+Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
+\@enLab=\toks33
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/natbib\bibentry.sty
+Package: bibentry 2007/10/30 1.5 (PWD)
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen166
+\Gin@req@width=\dimen167
+) (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+) (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count279
+\mult@box=\box55
+\multicol@leftmargin=\dimen168
+\c@unbalance=\count280
+\c@collectmore=\count281
+\doublecol@number=\count282
+\multicoltolerance=\count283
+\multicolpretolerance=\count284
+\full@width=\dimen169
+\page@free=\dimen170
+\premulticols=\dimen171
+\postmulticols=\dimen172
+\multicolsep=\skip58
+\multicolbaselineskip=\skip59
+\partial@page=\box56
+\last@line=\box57
+\mc@boxedresult=\box58
+\maxbalancingoverflow=\dimen173
+\mult@rightbox=\box59
+\mult@grightbox=\box60
+\mult@firstbox=\box61
+\mult@gfirstbox=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\c@minrows=\count285
+\c@columnbadness=\count286
+\c@finalcolumnbadness=\count287
+\last@try=\dimen174
+\multicolovershoot=\dimen175
+\multicolundershoot=\dimen176
+\mult@nat@firstbox=\box99
+\colbreak@box=\box100
+\mc@col@check@num=\count288
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf.s
+ty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+)))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count289
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count290
+) (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count291
+\rotFPtop=\skip60
+\rotFPbot=\skip61
+\rot@float@box=\box101
+\rot@mess@toks=\toks34
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+etadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2023-11-14 v3.3.9 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count292
+\l__siunitx_number_exponent_fixed_int=\count293
+\l__siunitx_number_min_decimal_int=\count294
+\l__siunitx_number_min_integer_int=\count295
+\l__siunitx_number_round_precision_int=\count296
+\l__siunitx_number_lower_threshold_int=\count297
+\l__siunitx_number_upper_threshold_int=\count298
+\l__siunitx_number_group_first_int=\count299
+\l__siunitx_number_group_size_int=\count300
+\l__siunitx_number_group_minimum_int=\count301
+\l__siunitx_angle_tmp_dim=\dimen177
+\l__siunitx_angle_marker_box=\box102
+\l__siunitx_angle_unit_box=\box103
+\l__siunitx_compound_count_int=\count302
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+ns.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count303
+))
+\l__siunitx_table_tmp_box=\box104
+\l__siunitx_table_tmp_dim=\dimen178
+\l__siunitx_table_column_width_dim=\dimen179
+\l__siunitx_table_integer_box=\box105
+\l__siunitx_table_decimal_box=\box106
+\l__siunitx_table_uncert_box=\box107
+\l__siunitx_table_before_box=\box108
+\l__siunitx_table_after_box=\box109
+\l__siunitx_table_before_dim=\dimen180
+\l__siunitx_table_carry_dim=\dimen181
+\l__siunitx_unit_tmp_int=\count304
+\l__siunitx_unit_position_int=\count305
+\l__siunitx_unit_total_int=\count306
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen182
+\ar@mcellbox=\box110
+\extrarowheight=\dimen183
+\NC@list=\toks35
+\extratabsurround=\skip62
+\backup@length=\skip63
+\ar@cellbox=\box111
+))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/mhchem\mhchem.sty
+Package: mhchem 2021/12/31 v4.09 for typesetting chemical formulae
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-11-09 L3 programming layer (loader) 
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count307
+\l__pdf_internal_box=\box112
+))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty
+Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count308
+\calc@Bcount=\count309
+\calc@Adimen=\dimen184
+\calc@Bdimen=\dimen185
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count310
+\calc@Cskip=\skip66
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/chemgreek\chemgreek.sty
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
+ in chemistry (CN)
+\l__chemgreek_tmpa_int=\count311
+\g__chemgreek_tmpa_int=\count312
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count313
+\__mhchem_arrow_extPgfLength_skip=\skip67
+\mhchem@minispace@tmp=\skip68
+\mhchem@minibackspace@tmp=\skip69
+\mhchem@bondwidth=\skip70
+\mhchem@bondheight=\skip71
+\mhchem@smallbondwidth@tmpA=\skip72
+\mhchem@smallbondwidth@tmpB=\skip73
+\mhchem@smallbondwidth=\skip74
+\mhchem@bondtmp@minussidebearingleft=\skip75
+\mhchem@bondtmp@minussidebearingright=\skip76
+\l__mhchem_option_version_int=\count314
+\mhchem@option@minusmathsidebearingleft=\dimen186
+\mhchem@option@minusmathsidebearingright=\dimen187
+\mhchem@option@minustextsidebearingleft=\dimen188
+\mhchem@option@minustextsidebearingright=\dimen189
+
+
+Package mhchem Warning: You did not specify a 'version' option for the mhchem
+(mhchem)                package. Please write \usepackage[version=4]{mhchem}
+(mhchem)                in your preamble (or any lower number for
+(mhchem)                compatibility mode), because you might get slightly
+(mhchem)                different output with the same input in future versions
+.
+
+)
+
+Package siunitx Info: Option "detect-weight" has been deprecated in this
+(siunitx)             release.
+(siunitx)             
+(siunitx)             Use "reset-text-series = false, text-series-to-math =
+(siunitx)             true" as a replacement.
+
+
+Package siunitx Info: Option "detect-family" has been deprecated in this
+(siunitx)             release.
+(siunitx)             
+(siunitx)             Use "reset-text-family = false, text-family-to-math =
+(siunitx)             true" as a replacement.
+
+ (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-11-09 v7.01f Hypertext links for LaTeX
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-09 v2.55 Cross-referencing by name of section
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count315
+)
+\@linkdim=\dimen190
+\Hy@linkcounter=\count316
+\Hy@pagecounter=\count317
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-11-09 v7.01f Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count318
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-11-09 v7.01f Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4171.
+Package hyperref Info: Link nesting OFF on input line 4176.
+Package hyperref Info: Hyper index ON on input line 4179.
+Package hyperref Info: Plain pages OFF on input line 4186.
+Package hyperref Info: Backreferencing OFF on input line 4191.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4438.
+\c@Hy@tempcnt=\count319
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4776.
+\XeTeXLinkMargin=\dimen191
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count320
+\Field@Width=\dimen192
+\Fld@charsize=\dimen193
+Package hyperref Info: Hyper figures OFF on input line 6055.
+Package hyperref Info: Link nesting OFF on input line 6060.
+Package hyperref Info: Hyper index ON on input line 6063.
+Package hyperref Info: backreferencing OFF on input line 6070.
+Package hyperref Info: Link coloring OFF on input line 6075.
+Package hyperref Info: Link coloring with OCG OFF on input line 6080.
+Package hyperref Info: PDF/A mode OFF on input line 6085.
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count321
+\c@Item=\count322
+\c@Hfootnote=\count323
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-11-09 v7.01f Hyperref driver for pdfTeX
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count324
+\c@bookmark@seq@number=\count325
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip77
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count326
+\lst@gtempboxa=\box113
+\lst@token=\toks36
+\lst@length=\count327
+\lst@currlwidth=\dimen194
+\lst@column=\count328
+\lst@pos=\count329
+\lst@lostspace=\dimen195
+\lst@width=\dimen196
+\lst@newlines=\count330
+\lst@lineno=\count331
+\lst@maxwidth=\dimen197
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count332
+\lst@skipnumbers=\count333
+\lst@framebox=\box114
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titletoc.sty
+Package: titletoc 2023/10/27 v2.16 TOC entries
+\ttl@leftsep=\dimen198
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/titlecaps\titlecaps.sty
+Package: titlecaps 2022/04/12\ 1.3\ Routines for setting rich-text input into T
+itling Caps
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/ifnextok\ifnextok.sty
+Package: ifnextok 2011/06/27 v0.3 test next token (UL)
+)
+\c@lcword@index=\count334
+\c@word@count=\count335
+\c@lc@words=\count336
+\c@dia@count=\count337
+\c@arg@@@index=\count338
+) (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/tabulary\tabulary.sty
+Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
+\TY@count=\count339
+\TY@linewidth=\dimen199
+\tymin=\dimen256
+\tymax=\dimen257
+\TY@tablewidth=\dimen258
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\threepar
+ttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box115
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen259
+\lightrulewidth=\dimen260
+\cmidrulewidth=\dimen261
+\belowrulesep=\dimen262
+\belowbottomsep=\dimen263
+\aboverulesep=\dimen264
+\abovetopsep=\dimen265
+\cmidrulesep=\dimen266
+\cmidrulekern=\dimen267
+\defaultaddspace=\dimen268
+\@cmidla=\count340
+\@cmidlb=\count341
+\@aboverulesep=\dimen269
+\@belowrulesep=\dimen270
+\@thisruleclass=\count342
+\@lastruleclass=\count343
+\@thisrulewidth=\dimen271
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip78
+\LTright=\skip79
+\LTpre=\skip80
+\LTpost=\skip81
+\LTchunksize=\count344
+\LTcapwidth=\dimen272
+\LT@head=\box116
+\LT@firsthead=\box117
+\LT@foot=\box118
+\LT@lastfoot=\box119
+\LT@gbox=\box120
+\LT@cols=\count345
+\LT@rows=\count346
+\c@LT@tables=\count347
+\c@LT@chunks=\count348
+\LT@p@ftn=\toks37
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen273
+\TX@old@table=\dimen274
+\TX@old@col=\dimen275
+\TX@target=\dimen276
+\TX@delta=\dimen277
+\TX@cols=\count349
+\TX@ftn=\toks38
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/ltablex\ltablex.sty
+Package: ltablex 2014/08/13 v1.1 Modified tabularx
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/threeparttablex\threepa
+rttablex.sty
+Package: threeparttablex 2013/07/23 v0.3 by daleif
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.s
+ty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\TPTL@width=\skip82
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip83
+\multirow@cntb=\count350
+\multirow@dima=\skip84
+\bigstrutjot=\dimen278
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+LaTeX Info: Redefining \color on input line 758.
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/02/20 v1.0g Color table columns (DPC)
+\everycr=\toks39
+\minrowclearance=\skip85
+\rownum=\count351
+) (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip86
+\RaggedLeftLeftskip=\skip87
+\RaggedRightLeftskip=\skip88
+\CenteringRightskip=\skip89
+\RaggedLeftRightskip=\skip90
+\RaggedRightRightskip=\skip91
+\CenteringParfillskip=\skip92
+\RaggedLeftParfillskip=\skip93
+\RaggedRightParfillskip=\skip94
+\JustifyingParfillskip=\skip95
+\CenteringParindent=\skip96
+\RaggedLeftParindent=\skip97
+\RaggedRightParindent=\skip98
+\JustifyingParindent=\skip99
+))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks40
+\pgfutil@tempdima=\dimen279
+\pgfutil@tempdimb=\dimen280
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box121
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks41
+\pgfkeys@temptoks=\toks42
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks43
+)))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex
+\pgf@x=\dimen281
+\pgf@xa=\dimen282
+\pgf@xb=\dimen283
+\pgf@xc=\dimen284
+\pgf@y=\dimen285
+\pgf@ya=\dimen286
+\pgf@yb=\dimen287
+\pgf@yc=\dimen288
+\c@pgf@counta=\count352
+\c@pgf@countb=\count353
+\c@pgf@countc=\count354
+\c@pgf@countd=\count355
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen289
+\pgfmath@count=\count356
+\pgfmath@box=\box122
+\pgfmath@toks=\toks44
+\pgfmath@stack@operand=\toks45
+\pgfmath@stack@operation=\toks46
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count357
+)))
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen290
+\pgffor@skip=\dimen291
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
+)) (0_settings/02_commands.tex
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+)
+\c@prop=\count358
+\c@thm=\count359
+\c@dfn=\count360
+)
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 15.
+
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\thesis.aux
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\A_title/A01_title.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\A_title/A02_quote_ded.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\B_toc/B00_PO.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\B_toc/B02_abst.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\B_toc/B01_ack.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\B_toc/B04_contributions.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\B_toc/B05_abbr.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\B_toc/B06_notn.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\B_toc/B03_toc.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\C_chap/C01_chap1.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\C_chap/C02_chap2.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\C_chap/C03_chap3.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\C_chap/C04_chap4.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\C_chap/C08_chap8.aux))
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includefoot 
+* h-part:(L,W,R)=(90.3375pt, 416.83289pt, 90.3375pt)
+* v-part:(T,H,B)=(72.26999pt, 724.3561pt, 48.42076pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=416.83289pt
+* \textheight=675.93533pt
+* \oddsidemargin=18.0675pt
+* \evensidemargin=18.0675pt
+* \topmargin=0.0pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=12.0pt
+* \footskip=48.42076pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count361
+\scratchdimen=\dimen292
+\scratchbox=\box123
+\nofMPsegments=\count362
+\nofMParguments=\count363
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count364
+\MPscratchDim=\dimen293
+\MPnumerator=\count365
+\makeMPintoPDFobject=\count366
+\everyMPtoPDFconversion=\toks50
+)
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 15.
+
+Package chemgreek Info: Activating mapping `default' on line 15.
+
+Package hyperref Info: Link coloring OFF on input line 15.
+
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\thesis.out)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\thesis.out)
+\@outlinefile=\write3
+\openout3 = `thesis.out'.
+
+\c@lstlisting=\count367
+
+(0_settings/02_commands_after_begin.tex) (0_settings/03_preamble.tex
+\openout2 = `A_title/A01_title.aux'.
+
+
+(A_title/A01_title.tex)
+<BIETlogo.png, id=217, 338.76563pt x 338.76563pt>
+File: BIETlogo.png Graphic file (type png)
+<use BIETlogo.png>
+Package pdftex.def Info: BIETlogo.png  used on input line 2.
+(pdftex.def)             Requested size: 108.12054pt x 108.11774pt.
+ [1
+
+
+{C:/Users/admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/admi
+n/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./BIETlogo.png>]
+\openout2 = `A_title/A02_quote_ded.aux'.
+
+ (A_title/A02_quote_ded.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (28.22432pt too wide) in paragraph at lines 8--18
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--18
+
+ []
+
+
+Overfull \hbox (13.1648pt too wide) in paragraph at lines 28--33
+[] 
+ []
+
+[2
+
+
+
+]) [3
+
+]
+\openout2 = `B_toc/B00_PO.aux'.
+
+ (B_toc/B00_PO.tex
+Overfull \hbox (47.5584pt too wide) in paragraph at lines 4--25
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+[]|\T1/ptm/b/n/12 S.
+ []
+
+
+Overfull \hbox (1.01877pt too wide) in paragraph at lines 28--28
+[]|\T1/ptm/b/n/12 PO
+ []
+
+
+Overfull \hbox (1.01877pt too wide) in paragraph at lines 28--28
+[]|\T1/ptm/b/n/12 PO
+ []
+
+
+Overfull \hbox (1.01877pt too wide) in paragraph at lines 28--28
+[]|\T1/ptm/b/n/12 PO
+ []
+
+
+Overfull \hbox (1.01877pt too wide) in paragraph at lines 28--28
+[]|\T1/ptm/b/n/12 PO
+ []
+
+
+Overfull \hbox (1.01877pt too wide) in paragraph at lines 28--28
+[]|\T1/ptm/b/n/12 PO
+ []
+
+
+Overfull \hbox (1.01877pt too wide) in paragraph at lines 28--28
+[]|\T1/ptm/b/n/12 PO
+ []
+
+
+Overfull \hbox (1.01877pt too wide) in paragraph at lines 28--28
+[]|\T1/ptm/b/n/12 PO
+ []
+
+
+Overfull \hbox (1.01877pt too wide) in paragraph at lines 28--28
+[]|\T1/ptm/b/n/12 PO
+ []
+
+
+Overfull \hbox (1.01877pt too wide) in paragraph at lines 28--28
+[]|\T1/ptm/b/n/12 PO
+ []
+
+
+Overfull \hbox (1.01877pt too wide) in paragraph at lines 28--28
+[]|\T1/ptm/b/n/12 PO
+ []
+
+
+Overfull \hbox (1.01877pt too wide) in paragraph at lines 28--28
+[]|\T1/ptm/b/n/12 PO
+ []
+
+
+Overfull \hbox (1.01877pt too wide) in paragraph at lines 28--28
+[]|\T1/ptm/b/n/12 PO
+ []
+
+
+Overfull \hbox (7.69069pt too wide) in paragraph at lines 28--28
+[]|\T1/ptm/b/n/12 PSO
+ []
+
+
+Overfull \hbox (7.69069pt too wide) in paragraph at lines 28--29
+[]|\T1/ptm/b/n/12 PSO
+ []
+
+
+Overfull \hbox (11.41661pt too wide) in paragraph at lines 26--42
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--42
+
+ []
+
+[4
+
+
+
+]
+Overfull \hbox (47.5584pt too wide) in paragraph at lines 45--77
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--77
+
+ []
+
+
+Overfull \vbox (34.62085pt too high) has occurred while \output is active []
+
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]|\T1/ptm/m/n/12 PSO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+[]|\T1/ptm/m/n/12 PSO
+ []
+
+)
+Overfull \hbox (47.5584pt too wide) in paragraph at lines 81--18
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--18
+
+ []
+
+[6]
+\openout2 = `B_toc/B02_abst.aux'.
+
+ (B_toc/B02_abst.tex
+Underfull \hbox (badness 1371) in paragraph at lines 4--4
+[]\T1/ptm/m/n/12 Machine Learn-ing, Mod-els, Al-go-rithms, Naive Bayes, NLP,
+ []
+
+) [7
+
+
+
+
+]
+\openout2 = `B_toc/B01_ack.aux'.
+
+ (B_toc/B01_ack.tex)
+Overfull \hbox (28.22432pt too wide) in paragraph at lines 12--24
+[] 
+ []
+
+[8
+
+
+
+]
+\openout2 = `B_toc/B04_contributions.aux'.
+
+ (B_toc/B04_contributions.tex
+Overfull \hbox (1.83397pt too wide) in paragraph at lines 8--8
+[]|\T1/ptm/b/n/12 1| 
+ []
+
+
+Overfull \hbox (1.83397pt too wide) in paragraph at lines 10--10
+[]|\T1/ptm/b/n/12 2| 
+ []
+
+
+Overfull \hbox (1.83397pt too wide) in paragraph at lines 12--12
+[]|\T1/ptm/b/n/12 3| 
+ []
+
+
+Overfull \hbox (1.83397pt too wide) in paragraph at lines 14--14
+[]|\T1/ptm/b/n/12 4| 
+ []
+
+
+Overfull \hbox (1.83397pt too wide) in paragraph at lines 16--16
+[]|\T1/ptm/b/n/12 5| 
+ []
+
+
+Overfull \hbox (5.4371pt too wide) in paragraph at lines 3--18
+ [] 
+ []
+
+)
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 20--27
+[] 
+ []
+
+[9
+
+
+
+]
+\openout2 = `B_toc/B05_abbr.aux'.
+
+ (B_toc/B05_abbr.tex
+Overfull \hbox (565.88402pt too wide) in paragraph at lines 5--24
+[] 
+ []
+
+) [10
+
+
+
+
+]
+\openout2 = `B_toc/B06_notn.aux'.
+
+
+No file B_toc/B06_notn.tex.
+\openout2 = `B_toc/B03_toc.aux'.
+
+(B_toc/B03_toc.tex (thesis.lot [11
+
+
+
+
+
+
+
+
+])
+\tf@lot=\write4
+\openout4 = `thesis.lot'.
+
+ [12] (thesis.lof [13
+
+] [14])
+\tf@lof=\write5
+\openout5 = `thesis.lof'.
+
+ [15]
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\thesis.toc [16
+
+] [17])
+\tf@toc=\write6
+\openout6 = `thesis.toc'.
+
+)
+[18])
+\openout2 = `C_chap/C01_chap1.aux'.
+
+ (C_chap/C01_chap1.tex
+CHAPTER 1.
+
+Package natbib Warning: Citation `islam2018depression' on page 1 undefined on i
+nput line 5.
+
+
+Overfull \hbox (1.03893pt too wide) in paragraph at lines 5--8
+\T1/ptm/m/n/12 Depression, a per-va-sive men-tal health con-di-tion, man-i-fest
+s through a mul-ti-tude of symp-
+ []
+
+
+Package natbib Warning: Citation `mahesh2020machine' on page 1 undefined on inp
+ut line 11.
+
+
+Package natbib Warning: Citation `islam2018depression' on page 1 undefined on i
+nput line 11.
+
+
+Package natbib Warning: Citation `shoumy2020multimodal' on page 1 undefined on 
+input line 13.
+
+
+Package natbib Warning: Citation `jan2017artificial' on page 1 undefined on inp
+ut line 13.
+
+
+Package natbib Warning: Citation `koops2023speech' on page 1 undefined on input
+ line 13.
+
+
+Package natbib Warning: Citation `tokuno2018pathophysiological' on page 1 undef
+ined on input line 13.
+
+
+Package natbib Warning: Citation `yasin2023machine' on page 1 undefined on inpu
+t line 14.
+
+
+Package natbib Warning: Citation `sarma2020review' on page 1 undefined on input
+ line 14.
+
+[1
+
+
+
+
+]
+
+Package natbib Warning: Citation `chowdhary2020natural' on page 2 undefined on 
+input line 18.
+
+
+Package natbib Warning: Citation `goodfellow2016deep' on page 2 undefined on in
+put line 21.
+
+
+Package natbib Warning: Citation `lecun2015deep' on page 2 undefined on input l
+ine 23.
+
+
+Package natbib Warning: Citation `babu2022sentiment' on page 2 undefined on inp
+ut line 23.
+
+[2] [3]
+
+Package natbib Warning: Citation `serhani2020ecg' on page 4 undefined on input 
+line 26.
+
+
+Package natbib Warning: Citation `berrar2019bayes' on page 4 undefined on input
+ line 33.
+
+
+Package natbib Warning: Citation `kayte2015marathi' on page 4 undefined on inpu
+t line 40.
+
+
+Package natbib Warning: Citation `li2021survey' on page 4 undefined on input li
+ne 46.
+
+
+Package natbib Warning: Citation `wani2021comprehensive' on page 4 undefined on
+ input line 48.
+
+
+Overfull \hbox (0.48683pt too wide) in paragraph at lines 25--50
+\T1/ptm/m/n/12 tably the Naive Bayes al-go-rithm[\T1/ptm/b/n/12 ? \T1/ptm/m/n/1
+2 ], and Nat-u-ral Lan-guage Pro-cess-ing (NLP) to achieve
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--50
+
+ []
+
+[4] [5]
+
+Package natbib Warning: Citation `cervantes2020comprehensive' on page 6 undefin
+ed on input line 54.
+
+
+Overfull \hbox (35.31128pt too wide) in paragraph at lines 52--58
+\T1/ptm/m/n/12 Machine learn-ing is the study of com-puter al-go-rithms that im
+-prove with ex-pe-ri-ence.Throughout
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--58
+
+ []
+
+[6]
+
+Package natbib Warning: Citation `wu2018development' on page 7 undefined on inp
+ut line 67.
+
+
+Package natbib Warning: Citation `wang2022predrnn' on page 7 undefined on input
+ line 69.
+
+[7] [8] [9]
+
+Package natbib Warning: Citation `saifuzzaman2021machine' on page 10 undefined 
+on input line 82.
+
+
+Package natbib Warning: Citation `sidebotham2020most' on page 10 undefined on i
+nput line 82.
+
+) [10] [11] [12] [13]
+\openout2 = `C_chap/C02_chap2.aux'.
+
+ (C_chap/C02_chap2.tex
+CHAPTER 2.
+
+Package natbib Warning: Citation `correia2020mining' on page 14 undefined on in
+put line 3.
+
+
+Package natbib Warning: Citation `mehra2022mental' on page 14 undefined on inpu
+t line 3.
+
+[14
+
+
+
+
+]
+
+Package natbib Warning: Citation `konig2022detecting' on page 15 undefined on i
+nput line 12.
+
+
+Package natbib Warning: Citation `amanat2022deep' on page 15 undefined on input
+ line 12.
+
+
+Package natbib Warning: Citation `gaikwad2023speech' on page 15 undefined on in
+put line 13.
+
+
+Package natbib Warning: Citation `swain2018databases' on page 15 undefined on i
+nput line 14.
+
+
+Package natbib Warning: Citation `wani2021comprehensive' on page 15 undefined o
+n input line 15.
+
+
+Overfull \hbox (4.87865pt too wide) in paragraph at lines 12--17
+\T1/ptm/m/n/12 Detecting Sub-tle Signs of De-pres-sion with Au-to-mated Speech 
+Anal-y-sis in a Non-Clinical
+ []
+
+[15]
+
+Package natbib Warning: Citation `tiwari2021analysis' on page 16 undefined on i
+nput line 19.
+
+) [16] [17]
+\openout2 = `C_chap/C03_chap3.aux'.
+
+ (C_chap/C03_chap3.tex
+CHAPTER 3.
+
+Package natbib Warning: Citation `mishra2020new' on page 18 undefined on input 
+line 7.
+
+<fig1.png, id=665, 482.55281pt x 414.79968pt>
+File: fig1.png Graphic file (type png)
+<use fig1.png>
+Package pdftex.def Info: fig1.png  used on input line 16.
+(pdftex.def)             Requested size: 333.46758pt x 286.65515pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--19
+
+ []
+
+[18
+
+
+
+
+]
+
+Package natbib Warning: Citation `paullada2021data' on page 19 undefined on inp
+ut line 36.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+[]|\T1/ptm/m/n/8 @switchfoothttp://twitpic.com
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 47--48
+[]|\T1/ptm/m/n/8 is up-set that he cant up-date his
+ []
+
+[19 <./fig1.png>]
+
+Package natbib Warning: Citation `narayanan2021efficient' on page 20 undefined 
+on input line 64.
+
+<C_chap/fig13.png, id=676, 656.4525pt x 337.26pt>
+File: C_chap/fig13.png Graphic file (type png)
+<use C_chap/fig13.png>
+Package pdftex.def Info: C_chap/fig13.png  used on input line 67.
+(pdftex.def)             Requested size: 250.10226pt x 128.49463pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--71
+
+ []
+
+[20]
+<C_chap/fig26.png, id=682, 657.2053pt x 210.7875pt>
+File: C_chap/fig26.png Graphic file (type png)
+<use C_chap/fig26.png>
+Package pdftex.def Info: C_chap/fig26.png  used on input line 87.
+(pdftex.def)             Requested size: 333.46758pt x 106.95663pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--91
+
+ []
+
+[21 <./C_chap/fig13.png>] [22]
+<C_chap/fig14.png, id=692, 640.64343pt x 117.43875pt>
+File: C_chap/fig14.png Graphic file (type png)
+<use C_chap/fig14.png>
+Package pdftex.def Info: C_chap/fig14.png  used on input line 94.
+(pdftex.def)             Requested size: 333.46758pt x 61.12941pt.
+<C_chap/fig15.png, id=693, 676.02562pt x 162.6075pt>
+File: C_chap/fig15.png Graphic file (type png)
+<use C_chap/fig15.png>
+Package pdftex.def Info: C_chap/fig15.png  used on input line 98.
+(pdftex.def)             Requested size: 333.46758pt x 80.21182pt.
+ [23 <./C_chap/fig26.png> <./C_chap/fig14.png> <./C_chap/fig15.png>]
+<C_chap/fig16.png, id=702, 641.39626pt x 267.24844pt>
+File: C_chap/fig16.png Graphic file (type png)
+<use C_chap/fig16.png>
+Package pdftex.def Info: C_chap/fig16.png  used on input line 117.
+(pdftex.def)             Requested size: 291.78174pt x 121.57784pt.
+ [24]
+Underfull \hbox (badness 10000) in paragraph at lines 123--129
+
+ []
+
+[25 <./C_chap/fig16.png>] [26]
+<C_chap/fig17.png, id=717, 650.43pt x 194.22563pt>
+File: C_chap/fig17.png Graphic file (type png)
+<use C_chap/fig17.png>
+Package pdftex.def Info: C_chap/fig17.png  used on input line 132.
+(pdftex.def)             Requested size: 333.46758pt x 99.57831pt.
+<C_chap/fig18.png, id=718, 623.32875pt x 347.79938pt>
+File: C_chap/fig18.png Graphic file (type png)
+<use C_chap/fig18.png>
+Package pdftex.def Info: C_chap/fig18.png  used on input line 142.
+(pdftex.def)             Requested size: 333.46758pt x 186.06818pt.
+<C_chap/fig19.png, id=719, 514.92375pt x 400.49625pt>
+File: C_chap/fig19.png Graphic file (type png)
+<use C_chap/fig19.png>
+Package pdftex.def Info: C_chap/fig19.png  used on input line 146.
+(pdftex.def)             Requested size: 333.46758pt x 259.36615pt.
+<C_chap/fig20.png, id=720, 458.46281pt x 185.94469pt>
+File: C_chap/fig20.png Graphic file (type png)
+<use C_chap/fig20.png>
+Package pdftex.def Info: C_chap/fig20.png  used on input line 150.
+(pdftex.def)             Requested size: 333.46758pt x 135.2533pt.
+ [27 <./C_chap/fig17.png>]
+<C_chap/fig25.png, id=727, 489.32813pt x 362.85562pt>
+File: C_chap/fig25.png Graphic file (type png)
+<use C_chap/fig25.png>
+Package pdftex.def Info: C_chap/fig25.png  used on input line 160.
+(pdftex.def)             Requested size: 333.46758pt x 247.28116pt.
+ [28 <./C_chap/fig18.png> <./C_chap/fig19.png> <./C_chap/fig20.png>] [29 <./C_c
+hap/fig25.png>]
+[30] [31] [32]
+<C_chap/fig27.png, id=760, 659.46375pt x 418.56375pt>
+File: C_chap/fig27.png Graphic file (type png)
+<use C_chap/fig27.png>
+Package pdftex.def Info: C_chap/fig27.png  used on input line 204.
+(pdftex.def)             Requested size: 333.46758pt x 211.65723pt.
+
+Overfull \hbox (7.46959pt too wide) in paragraph at lines 200--209
+\T1/ptm/m/n/12 vance-ments in com-pu-ta-tional ca-pa-bil-i-ties and the avail-a
+bil-ity of vast datasets.Hierarchical
+ []
+
+[33] [34 <./C_chap/fig27.png>]
+<C_chap/fig28.png, id=771, 441.90094pt x 393.72093pt>
+File: C_chap/fig28.png Graphic file (type png)
+<use C_chap/fig28.png>
+Package pdftex.def Info: C_chap/fig28.png  used on input line 222.
+(pdftex.def)             Requested size: 333.46758pt x 297.12231pt.
+ [35] [36 <./C_chap/fig28.png>]
+<C_chap/fig29.png, id=782, 672.26157pt x 331.2375pt>
+File: C_chap/fig29.png Graphic file (type png)
+<use C_chap/fig29.png>
+Package pdftex.def Info: C_chap/fig29.png  used on input line 264.
+(pdftex.def)             Requested size: 375.14705pt x 184.84477pt.
+ [37] [38 <./C_chap/fig29.png>]
+
+Package natbib Warning: Citation `wang2020cnn' on page 39 undefined on input li
+ne 280.
+
+[39]
+Overfull \hbox (4.75716pt too wide) in paragraph at lines 285--288
+[]\T1/ptm/b/n/12 1. Con-vo-lu-tion Lay-ers: \T1/ptm/m/n/12 In con-vo-lu-tion la
+y-ers, Con-vo-lu-tion Neu-ral Net-works (CNN)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--293
+
+ []
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 298--301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--305
+
+ []
+
+[41]
+<C_chap/fig30.png, id=806, 794.2172pt x 251.43938pt>
+File: C_chap/fig30.png Graphic file (type png)
+<use C_chap/fig30.png>
+Package pdftex.def Info: C_chap/fig30.png  used on input line 314.
+(pdftex.def)             Requested size: 375.14705pt x 118.76735pt.
+ [42]
+Overfull \hbox (0.90701pt too wide) in paragraph at lines 320--332
+\T1/ptm/m/n/12 The Ry-er-son Audio-Visual Database of Emo-tional Speech and Son
+g (RAVDESS) stands
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--332
+
+ []
+
+[43 <./C_chap/fig30.png>]
+<C_chap/fig36.png, id=818, 424.58624pt x 137.01187pt>
+File: C_chap/fig36.png Graphic file (type png)
+<use C_chap/fig36.png>
+Package pdftex.def Info: C_chap/fig36.png  used on input line 337.
+(pdftex.def)             Requested size: 333.46758pt x 107.61308pt.
+<C_chap/fig32.png, id=819, 513.41812pt x 300.3722pt>
+File: C_chap/fig32.png Graphic file (type png)
+<use C_chap/fig32.png>
+Package pdftex.def Info: C_chap/fig32.png  used on input line 349.
+(pdftex.def)             Requested size: 375.14705pt x 219.4807pt.
+<C_chap/fig33.png, id=820, 1044.90375pt x 272.51813pt>
+File: C_chap/fig33.png Graphic file (type png)
+<use C_chap/fig33.png>
+Package pdftex.def Info: C_chap/fig33.png  used on input line 359.
+(pdftex.def)             Requested size: 375.14705pt x 97.84032pt.
+<C_chap/fig34.png, id=821, 1139.75812pt x 319.94531pt>
+File: C_chap/fig34.png Graphic file (type png)
+<use C_chap/fig34.png>
+Package pdftex.def Info: C_chap/fig34.png  used on input line 365.
+(pdftex.def)             Requested size: 375.14705pt x 105.30888pt.
+
+Overfull \hbox (9.24681pt too wide) in paragraph at lines 333--388
+\T1/ptm/m/n/12 model is metic-u-lously crafted and trained on the train-ing dat
+a, en-abling it to au-tonomously
+ []
+
+[44] [45 <./C_chap/fig36.png>] [46 <./C_chap/fig32.png>] [47 <./C_chap/fig33.pn
+g> <./C_chap/fig34.png>] [48]
+
+Package natbib Warning: Citation `Krishnan2018iot' on page 49 undefined on inpu
+t line 389.
+
+
+Package natbib Warning: Citation `schwartz2016internet' on page 49 undefined on
+ input line 391.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--399
+
+ []
+
+[49] [50]
+
+Package natbib Warning: Citation `mohammed2021real' on page 51 undefined on inp
+ut line 401.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--407
+
+ []
+
+[51] [52]
+
+Package natbib Warning: Citation `hu2020internet' on page 53 undefined on input
+ line 417.
+
+
+Overfull \hbox (3.7391pt too wide) in paragraph at lines 408--428
+\T1/ptm/b/n/12 2.3 Data Trans-mis-sion:\T1/ptm/m/n/12 The ESP8266 board fea-tur
+es GPIO (Gen-eral Pur-pose In-put/Out-
+ []
+
+
+Overfull \hbox (8.7543pt too wide) in paragraph at lines 408--428
+\T1/ptm/m/n/12 com-mu-ni-ca-tion in-ter-faces such as UART (Uni-ver-sal Asyn-ch
+ronous Receiver-Transmitter)
+ []
+
+[53] [54] [55]
+<C_chap/fig2.png, id=878, 1137.4997pt x 507.39563pt>
+File: C_chap/fig2.png Graphic file (type png)
+<use C_chap/fig2.png>
+Package pdftex.def Info: C_chap/fig2.png  used on input line 443.
+(pdftex.def)             Requested size: 333.46758pt x 148.7436pt.
+<C_chap/fig3.png, id=879, 657.95813pt x 523.20468pt>
+File: C_chap/fig3.png Graphic file (type png)
+<use C_chap/fig3.png>
+Package pdftex.def Info: C_chap/fig3.png  used on input line 448.
+(pdftex.def)             Requested size: 333.46758pt x 265.17828pt.
+
+
+Package natbib Warning: Citation `morshedlou2021ultra' on page 56 undefined on 
+input line 453.
+
+
+Package natbib Warning: Citation `marriwala2023hybrid' on page 56 undefined on 
+input line 453.
+
+
+Package natbib Warning: Citation `dimas2022classification' on page 56 undefined
+ on input line 458.
+
+
+Package natbib Warning: Citation `noor2021predicting' on page 56 undefined on i
+nput line 462.
+
+
+Package natbib Warning: Citation `ksibi2023electroencephalography' on page 56 u
+ndefined on input line 475.
+
+
+Package natbib Warning: Citation `pons2021evanescent' on page 56 undefined on i
+nput line 485.
+
+
+Package natbib Warning: Citation `serhani2020ecg' on page 56 undefined on input
+ line 494.
+
+
+Package natbib Warning: Citation `daisy2021early' on page 56 undefined on input
+ line 495.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--496
+
+ []
+
+[56] [57 <./C_chap/fig2.png> <./C_chap/fig3.png>] [58] [59] [60] [61]
+<C_chap/fig4.png, id=908, 837.88031pt x 547.2947pt>
+File: C_chap/fig4.png Graphic file (type png)
+<use C_chap/fig4.png>
+Package pdftex.def Info: C_chap/fig4.png  used on input line 501.
+(pdftex.def)             Requested size: 291.78174pt x 190.58728pt.
+
+
+Package natbib Warning: Citation `arquilla2020textile' on page 62 undefined on 
+input line 506.
+
+
+Package natbib Warning: Citation `roh2014wearable' on page 62 undefined on inpu
+t line 506.
+
+[62 <./C_chap/fig4.png>]
+
+Package natbib Warning: Citation `merletti2020tutorial' on page 63 undefined on
+ input line 513.
+
+[63]
+
+Package natbib Warning: Citation `libman2023ecg' on page 64 undefined on input 
+line 522.
+
+[64] [65]
+
+Package natbib Warning: Citation `schwartz1978facial' on page 66 undefined on i
+nput line 533.
+
+[66]
+
+Package natbib Warning: Citation `pesti2020electrode' on page 67 undefined on i
+nput line 538.
+
+[67]
+<C_chap/fig5.png, id=936, 286.06876pt x 242.40562pt>
+File: C_chap/fig5.png Graphic file (type png)
+<use C_chap/fig5.png>
+Package pdftex.def Info: C_chap/fig5.png  used on input line 551.
+(pdftex.def)             Requested size: 291.78174pt x 247.25044pt.
+ [68]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
+59.
+
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+
+Package natbib Warning: Citation `mendes2023ad8232' on page 69 undefined on inp
+ut line 564.
+
+
+Package natbib Warning: Citation `yang2021new' on page 69 undefined on input li
+ne 564.
+
+[69 <./C_chap/fig5.png>]
+
+Package natbib Warning: Citation `schmidli2023different' on page 70 undefined o
+n input line 569.
+
+
+Overfull \hbox (2.71889pt too wide) in paragraph at lines 569--570
+[]\T1/ptm/m/n/12 The ESP8266 is a highly ver-sa-tile and com-pact WiFi mod-ule 
+de-vel-oped by Espres-
+ []
+
+<C_chap/fig6.png, id=946, 724.95844pt x 117.43875pt>
+File: C_chap/fig6.png Graphic file (type png)
+<use C_chap/fig6.png>
+Package pdftex.def Info: C_chap/fig6.png  used on input line 586.
+(pdftex.def)             Requested size: 458.5187pt x 74.27888pt.
+
+Overfull \hbox (41.68582pt too wide) in paragraph at lines 586--587
+ [][] 
+ []
+
+[70]
+<C_chap/fig7.png, id=951, 233.37187pt x 606.76688pt>
+File: C_chap/fig7.png Graphic file (type png)
+<use C_chap/fig7.png>
+Package pdftex.def Info: C_chap/fig7.png  used on input line 609.
+(pdftex.def)             Requested size: 250.10226pt x 650.29887pt.
+<C_chap/fig8.png, id=952, 433.62pt x 341.77687pt>
+File: C_chap/fig8.png Graphic file (type png)
+<use C_chap/fig8.png>
+Package pdftex.def Info: C_chap/fig8.png  used on input line 619.
+(pdftex.def)             Requested size: 375.14705pt x 295.70593pt.
+ [71 <./C_chap/fig6.png>] [72 <./C_chap/fig7.png>]
+
+Package natbib Warning: Citation `arquilla2020textile' on page 73 undefined on 
+input line 623.
+
+[73 <./C_chap/fig8.png>]
+
+Package natbib Warning: Citation `serhani2020ecg' on page 74 undefined on input
+ line 633.
+
+[74] [75]) [76] [77]
+\openout2 = `C_chap/C04_chap4.aux'.
+
+ (C_chap/C04_chap4.tex
+CHAPTER 4.
+
+Package natbib Warning: Citation `vamseekrishna2023low' on page 78 undefined on
+ input line 3.
+
+
+Package natbib Warning: Citation `sutikno2021internet' on page 78 undefined on 
+input line 5.
+
+<C_chap/fig38.png, id=987, 398.23781pt x 250.68657pt>
+File: C_chap/fig38.png Graphic file (type png)
+<use C_chap/fig38.png>
+Package pdftex.def Info: C_chap/fig38.png  used on input line 8.
+(pdftex.def)             Requested size: 250.10226pt x 157.4361pt.
+<C_chap/fig10.png, id=988, 325.96782pt x 398.99063pt>
+File: C_chap/fig10.png Graphic file (type png)
+<use C_chap/fig10.png>
+Package pdftex.def Info: C_chap/fig10.png  used on input line 16.
+(pdftex.def)             Requested size: 250.10226pt x 306.14005pt.
+<C_chap/fig11.png, id=989, 729.47531pt x 362.10281pt>
+File: C_chap/fig11.png Graphic file (type png)
+<use C_chap/fig11.png>
+Package pdftex.def Info: C_chap/fig11.png  used on input line 26.
+(pdftex.def)             Requested size: 375.14705pt x 186.21704pt.
+
+Package natbib Warning: Citation `kleiman2021comparison' on page 78 undefined o
+n input line 30.
+
+[78
+
+
+
+
+ <./C_chap/fig38.png>] [79 <./C_chap/fig10.png>] [80 <./C_chap/fig11.png>]
+<C_chap/fig12.png, id=1008, 696.35156pt x 375.65344pt>
+File: C_chap/fig12.png Graphic file (type png)
+<use C_chap/fig12.png>
+Package pdftex.def Info: C_chap/fig12.png  used on input line 44.
+(pdftex.def)             Requested size: 375.14705pt x 202.37407pt.
+
+[81 <./C_chap/fig12.png>]
+
+Package natbib Warning: Citation `chiong2021textual' on page 82 undefined on in
+put line 49.
+
+<C_chap/fig22.png, id=1014, 590.95781pt x 263.48438pt>
+File: C_chap/fig22.png Graphic file (type png)
+<use C_chap/fig22.png>
+Package pdftex.def Info: C_chap/fig22.png  used on input line 53.
+(pdftex.def)             Requested size: 375.14705pt x 167.26648pt.
+[82 <./C_chap/fig22.png>]
+File: C_chap/fig25.png Graphic file (type png)
+<use C_chap/fig25.png>
+Package pdftex.def Info: C_chap/fig25.png  used on input line 61.
+(pdftex.def)             Requested size: 333.46758pt x 247.28116pt.
+<C_chap/fig39.jpg, id=1021, 1606.0pt x 903.375pt>
+File: C_chap/fig39.jpg Graphic file (type jpg)
+<use C_chap/fig39.jpg>
+Package pdftex.def Info: C_chap/fig39.jpg  used on input line 69.
+(pdftex.def)             Requested size: 416.83289pt x 234.47221pt.
+<C_chap/fig40.png, id=1022, 1046.40938pt x 531.48563pt>
+File: C_chap/fig40.png Graphic file (type png)
+<use C_chap/fig40.png>
+Package pdftex.def Info: C_chap/fig40.png  used on input line 74.
+(pdftex.def)             Requested size: 416.83289pt x 211.71461pt.
+<C_chap/fig41.png, id=1023, 1044.15094pt x 531.48563pt>
+File: C_chap/fig41.png Graphic file (type png)
+<use C_chap/fig41.png>
+Package pdftex.def Info: C_chap/fig41.png  used on input line 79.
+(pdftex.def)             Requested size: 416.83289pt x 212.17688pt.
+<C_chap/fig42.jpg, id=1024, 1606.0pt x 903.375pt>
+File: C_chap/fig42.jpg Graphic file (type jpg)
+<use C_chap/fig42.jpg>
+Package pdftex.def Info: C_chap/fig42.jpg  used on input line 84.
+(pdftex.def)             Requested size: 416.83289pt x 234.47221pt.
+ [83] [84 <./C_chap/fig39.jpg> <./C_chap/fig40.png>]
+[85 <./C_chap/fig41.png> <./C_chap/fig42.jpg>] [86]
+<C_chap/fig35.png, id=1045, 673.76718pt x 408.77719pt>
+File: C_chap/fig35.png Graphic file (type png)
+<use C_chap/fig35.png>
+Package pdftex.def Info: C_chap/fig35.png  used on input line 99.
+(pdftex.def)             Requested size: 333.46758pt x 202.31726pt.
+
+
+Package natbib Warning: Citation `sardari2022audio' on page 87 undefined on inp
+ut line 103.
+
+) [87 <./C_chap/fig35.png>] [88]
+\openout2 = `C_chap/C08_chap8.aux'.
+
+ (C_chap/C08_chap8.tex
+CHAPTER 5.
+
+Package natbib Warning: Citation `yeh2021integrating' on page 89 undefined on i
+nput line 2.
+
+
+Package natbib Warning: Citation `vazquez2020automatic' on page 89 undefined on
+ input line 4.
+
+) [89
+
+
+
+
+] (0_settings/04_postamble.tex (D_appx/D01_app1.tex
+APPENDIX A.
+(C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+Overfull \hbox (33.17169pt too wide) in paragraph at lines 33--34
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[90
+
+
+
+]
+Overfull \hbox (9.17145pt too wide) in paragraph at lines 44--45
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (69.17206pt too wide) in paragraph at lines 58--60
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[91]
+Overfull \hbox (21.17157pt too wide) in paragraph at lines 86--87
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (63.172pt too wide) in paragraph at lines 106--107
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[92]) (D_appx/D02_app2.tex [93]
+APPENDIX B.
+[94
+
+] [95]
+Overfull \hbox (39.17175pt too wide) in paragraph at lines 94--96
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (75.17212pt too wide) in paragraph at lines 98--99
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (81.17218pt too wide) in paragraph at lines 101--102
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (D_appx/D03_app3.tex [96]
+APPENDIX C.
+) (D_appx/D04_app4.tex
+Overfull \hbox (47.5584pt too wide) in paragraph at lines 3--1
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+[97
+
+]
+APPENDIX D.
+<D_appx/plag1.png, id=1308, 1437.87187pt x 759.58781pt>
+File: D_appx/plag1.png Graphic file (type png)
+<use D_appx/plag1.png>
+Package pdftex.def Info: D_appx/plag1.png  used on input line 21.
+(pdftex.def)             Requested size: 416.83289pt x 220.19368pt.
+[98
+
+ <./D_appx/plag1.png>]
+<D_appx/plagpdf.pdf, id=1315, page=1, 614.295pt x 794.97pt>
+File: D_appx/plagpdf.pdf Graphic file (type pdf)
+<use D_appx/plagpdf.pdf, page 1>
+Package pdftex.def Info: D_appx/plagpdf.pdf , page1 used on input line 31.
+(pdftex.def)             Requested size: 416.83289pt x 539.4322pt.
+ [99 <./D_appx/plagpdf.pdf>]
+<D_appx/plagpdf.pdf, id=1329, page=2, 614.295pt x 794.97pt>
+File: D_appx/plagpdf.pdf Graphic file (type pdf)
+<use D_appx/plagpdf.pdf, page 2>
+Package pdftex.def Info: D_appx/plagpdf.pdf , page2 used on input line 31.
+(pdftex.def)             Requested size: 416.83289pt x 539.4322pt.
+ [100 <./D_appx/plagpdf.pdf>]
+<D_appx/plagpdf.pdf, id=1343, page=3, 614.295pt x 794.97pt>
+File: D_appx/plagpdf.pdf Graphic file (type pdf)
+<use D_appx/plagpdf.pdf, page 3>
+Package pdftex.def Info: D_appx/plagpdf.pdf , page3 used on input line 31.
+(pdftex.def)             Requested size: 416.83289pt x 539.4322pt.
+ [101 <./D_appx/plagpdf.pdf>]
+<D_appx/plagpdf.pdf, id=1356, page=4, 614.295pt x 794.97pt>
+File: D_appx/plagpdf.pdf Graphic file (type pdf)
+<use D_appx/plagpdf.pdf, page 4>
+Package pdftex.def Info: D_appx/plagpdf.pdf , page4 used on input line 31.
+(pdftex.def)             Requested size: 416.83289pt x 539.4322pt.
+ [102 <./D_appx/plagpdf.pdf>]
+<D_appx/plagpdf.pdf, id=1370, page=5, 614.295pt x 794.97pt>
+File: D_appx/plagpdf.pdf Graphic file (type pdf)
+<use D_appx/plagpdf.pdf, page 5>
+Package pdftex.def Info: D_appx/plagpdf.pdf , page5 used on input line 31.
+(pdftex.def)             Requested size: 416.83289pt x 539.4322pt.
+)
+No file thesis.bbl.
+)
+
+Package caption Warning: Unused \captionsetup[subfigure] on input line 23.
+See the caption package documentation for explanation.
+
+
+Package natbib Warning: There were undefined citations.
+
+[103 <./D_appx/plagpdf.pdf>]
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\thesis.aux
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\A_title/A01_title.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\A_title/A02_quote_ded.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\B_toc/B00_PO.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\B_toc/B02_abst.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\B_toc/B01_ack.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\B_toc/B04_contributions.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\B_toc/B05_abbr.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\B_toc/B06_notn.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\B_toc/B03_toc.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\C_chap/C01_chap1.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\C_chap/C02_chap2.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\C_chap/C03_chap3.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\C_chap/C04_chap4.aux)
+(D:\OneDrive - bietjhs.ac.in\TEACHING\B_Tech\B_Tech_Projects\Github_repo\B.-Tec
+h.-Projects\Final_Project_Report_sample\aux_files\C_chap/C08_chap8.aux))
+ ***********
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-09>
+ ***********
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 3FB12BF902F4C520655CE2E7FBFF8B07;9102.
+ ) 
+Here is how much of TeX's memory you used:
+ 28259 strings out of 474586
+ 556782 string characters out of 5745681
+ 1972558 words of memory out of 5000000
+ 49360 multiletter control sequences out of 15000+600000
+ 602832 words of font info for 87 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 71i,12n,82p,2028b,2591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{figure.caption.123} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.122} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.121} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.120} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.118} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.116} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.115} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.113} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.112} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.111} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.109} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.107} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.105} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.103} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.101} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.99} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.93} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.83} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.82} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.81} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.80} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.79} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.78} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.76} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.74} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.71} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.68} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.66} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.64} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.56} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.18} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.16} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.142} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.140} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.137} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.135} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.134} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.132} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.130} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.127} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.125} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.117} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.114} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.94} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.92} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.91} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.90} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.89} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.88} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.87} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.86} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.85} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.84} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.72} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.69} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.62} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.61} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.59} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.58} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.57} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.53} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.42} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.35} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.33} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.32} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.30} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.27} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.24} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.caption.20} has been referenced but does not 
+exist, replaced by a fixed one
+
+<C:/Users/admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+mi12.pfb><C:/Users/admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><C:/Users/admin/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb><C:/Users/admin/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb><C:/Users/admin/AppData/Local/Programs/MiKTeX/
+fonts/type1/urw/times/utmb8a.pfb><C:/Users/admin/AppData/Local/Programs/MiKTeX/
+fonts/type1/urw/times/utmr8a.pfb><C:/Users/admin/AppData/Local/Programs/MiKTeX/
+fonts/type1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (121 pages, 8119286 bytes).
+PDF statistics:
+ 1527 PDF objects out of 1728 (max. 8388607)
+ 515 named destinations out of 1000 (max. 500000)
+ 648 words of extra memory for PDF output out of 10000 (max. 10000000)
+
